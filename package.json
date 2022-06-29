@@ -15,6 +15,7 @@
   "dependencies": {
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
+    "tailwindcss": "^3.1.4",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
@@ -25,11 +26,12 @@
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.4.7",
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
-    "postcss": "^8.4.4",
+    "postcss": "^8.4.14",
     "prettier": "^2.5.1"
   }
 }
