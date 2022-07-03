@@ -13,12 +13,12 @@
       <p class="mb-2 font-semibold">Благодарности:</p>
       <a
         class="text-blue-500 text-sm block hover:underline"
-        href="https://tglink.ru/iamleejeongmi"
+        href="https://t.me/iamleejeongmi"
         >Переводчице на все языки – Алекс</a
       >
       <a
         class="text-blue-500 text-sm block hover:underline"
-        href="https://tglink.ru/Anub1sHateAll"
+        href="https://t.me/Anub1sHateAll"
         >Дизайнеру и искателю материалов – Павел</a
       >
     </footer>
@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import UIUXDesign from './Ways/uiuxDesign.vue'
-import MobileDesign from './Ways/mobileDesign.vue'
-import ProductDesign from './Ways/productDesign.vue'
+import UIUXDesign from '@/components/mainBlocks/uiuxDesign.vue'
+import MobileDesign from '@/components/mainBlocks/mobileDesign.vue'
+import ProductDesign from '@/components/mainBlocks/productDesign.vue'
 
 export default {
   name: 'MainPage',

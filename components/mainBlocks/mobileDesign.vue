@@ -1,5 +1,6 @@
 <template>
-  <div
+  <NuxtLink
+    to="/mobile"
     class="w-full bg-red-500 text-white rounded py-8 px-6 flex flex-col justify-between cursor-pointer"
   >
     <p class="text-3xl font-bold">Mobile design</p>
@@ -11,7 +12,7 @@
       </div>
       <Mobile class="w-1/2" />
     </div>
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
