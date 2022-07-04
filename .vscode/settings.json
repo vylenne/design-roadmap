@@ -1,6 +1,0 @@
-{
-    "tailwindCSS.emmetCompletions": true,
-    "tailwindCSS.includeLanguages": {
-        "vue": "vue"
-    }
-}
