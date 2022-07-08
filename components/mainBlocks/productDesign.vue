@@ -23,9 +23,9 @@
     <p class="text-3xl font-bold">Product design</p>
     <div class="flex justify-between text-white items-end">
       <div>
-        <p>10 books</p>
+        <!-- <p>10 books</p>
         <p>4 articles</p>
-        <p>50 resources</p>
+        <p>50 resources</p> -->
       </div>
       <Product class="w-1/2" />
     </div>
