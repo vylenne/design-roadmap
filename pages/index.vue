@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full h-full container mx-auto py-10 flex flex-col">
+  <div class="min-h-full h-full container mx-auto pt-10 flex flex-col">
     <h1 class="text-5xl font-bold text-center">Роадмапы для дизайнеров 2022</h1>
     <p class="mt-6 mb-10 text-center">
       Выберите направление, в котором вы хотите развиваться.
@@ -9,19 +9,7 @@
       <MobileDesign />
       <ProductDesign />
     </div>
-    <footer class="text-center block mt-10">
-      <p class="mb-2 font-semibold">Благодарности:</p>
-      <a
-        class="text-blue-500 text-sm block hover:underline"
-        href="https://t.me/iamleejeongmi"
-        >Переводчице на все языки – Алекс</a
-      >
-      <a
-        class="text-blue-500 text-sm block hover:underline"
-        href="https://t.me/Anub1sHateAll"
-        >Дизайнеру и искателю материалов – Павел</a
-      >
-    </footer>
+    <Footer />
   </div>
 </template>
 
@@ -29,9 +17,10 @@
 import UIUXDesign from '@/components/mainBlocks/uiuxDesign.vue'
 import MobileDesign from '@/components/mainBlocks/mobileDesign.vue'
 import ProductDesign from '@/components/mainBlocks/productDesign.vue'
+import Footer from '@/components/FooterComponent.vue'
 
 export default {
   name: 'MainPage',
-  components: { UIUXDesign, MobileDesign, ProductDesign },
+  components: { UIUXDesign, MobileDesign, ProductDesign, Footer },
 }
 </script>
