@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     to="/ui-ux"
-    class="w-full bg-blue-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between cursor-pointer"
+    class="w-full bg-blue-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between transition hover:bg-blue-300"
   >
     <p class="text-3xl font-bold">UI/UX Design</p>
     <div class="flex justify-between items-end">

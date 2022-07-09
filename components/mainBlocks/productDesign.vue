@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     to="/product"
-    class="w-full bg-purple-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between relative"
+    class="w-full bg-purple-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between relative transition hover:bg-purple-300"
     event=""
   >
     <div
