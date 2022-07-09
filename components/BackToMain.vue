@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     to="/"
-    class="w-fit text-gray-900 font-medium rounded-md border-2 border-blue-600 absolute -left-20 transition hover:bg-blue-200"
+    class="w-fit text-gray-900 font-medium rounded-md border border-blue-600 absolute -left-20 transition hover:bg-blue-200"
   >
     <svg
       width="40"

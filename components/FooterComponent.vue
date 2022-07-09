@@ -19,7 +19,7 @@
         <p class="mr-8">
           Перевод —
           <a
-            class="text-purple-600 hover:underline"
+            class="text-pink-500 hover:underline"
             href="https://t.me/iamleejeongmi"
             target="_blank"
             >Алекс
@@ -54,7 +54,9 @@
       </div>
     </div>
     <div class="self-end">
-      <Logo class="h-4" />
+      <NuxtLink to="/">
+        <Logo class="h-4" />
+      </NuxtLink>
     </div>
   </footer>
 </template>
