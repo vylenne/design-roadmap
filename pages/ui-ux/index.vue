@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-full h-full container mx-auto py-10 flex flex-col">
+  <div class="min-h-full h-full container mx-auto py-10 flex flex-col relative">
+    <BackToMain />
     <h1 class="text-4xl font-bold">{{ data.title }}</h1>
     <p class="mt-6 mb-10">
       {{ data.description }}
@@ -22,14 +23,15 @@ import PathLine from '@/components/svg/Path.vue'
 import PathLineSmall from '@/components/svg/PathSmall.vue'
 import CategoryOfContent from '@/components/CategoryOfContent/index.vue'
 import data from '~/content/pages/uiux.json'
+import BackToMain from '~/components/BackToMain.vue'
 
 export default {
   name: 'UiUxDesign',
-  components: { PathLine, PathLineSmall, CategoryOfContent },
+  components: { PathLine, PathLineSmall, CategoryOfContent, BackToMain },
   data() {
     return {
       data,
     }
-  }
+  },
 }
 </script>

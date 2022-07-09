@@ -21,6 +21,6 @@ import Footer from '@/components/FooterComponent.vue'
 
 export default {
   name: 'MainPage',
-  components: { UIUXDesign, MobileDesign, ProductDesign, Footer },
+  components: { UIUXDesign, MobileDesign, ProductDesign, Footer  },
 }
 </script>

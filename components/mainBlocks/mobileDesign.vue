@@ -1,15 +1,15 @@
 <template>
   <NuxtLink
     to="/mobile"
-    class="w-full bg-red-500 text-white rounded py-8 px-6 flex flex-col justify-between relative"
+    class="w-full bg-red-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between relative"
     event=""
   >
     <div
-      class="absolute bg-opacity-40 bg-slate-400 z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
+      class="absolute rounded-md bg-opacity-40 text-white bg-slate-400 z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
     >
       <svg
-        width="90"
-        height="90"
+        width="80"
+        height="80"
         viewBox="0 0 90 90"
         fill="none"
       >
@@ -21,13 +21,13 @@
       <p class="text-2xl font-semibold">Скоро!</p>
     </div>
     <p class="text-3xl font-bold">Mobile design</p>
-    <div class="flex justify-between text-white items-end">
+    <div class="flex justify-between items-end">
       <div>
         <!-- <p>10 books</p>
         <p>4 articles</p>
         <p>50 resources</p> -->
       </div>
-      <Mobile class="w-1/2" />
+      <Mobile class="w-1/3" />
     </div>
   </NuxtLink>
 </template>
