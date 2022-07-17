@@ -26,7 +26,7 @@ import BackToMain from '@/components/BackToMain.vue'
 import Footer from '@/components/FooterComponent.vue'
 import Popup from '@/components/PopupComponent.vue'
 
-import data from '@/content/pages/uiuxMain.json'
+import data from '@/content/pages/uiux.json'
 
 export default {
   name: 'UiUxDesign',
