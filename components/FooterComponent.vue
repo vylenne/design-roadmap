@@ -57,6 +57,7 @@
       <NuxtLink to="/">
         <Logo class="h-4" />
       </NuxtLink>
+      <p class="text-right text-sm mt-1 text-gray-600">© 2022</p>
     </div>
   </footer>
 </template>
