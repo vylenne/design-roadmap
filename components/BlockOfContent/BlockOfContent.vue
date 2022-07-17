@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-col justify-center items-center w-1/4">
       <PathLine class="h-20" />
-      <h2 class="text-2xl font-semibold my-4">{{ title }}</h2>
+      <h2 class="text-2xl font-semibold my-4 text-center">{{ title }}</h2>
     </div>
     <div
       v-for="(theme, id) in dataOfBlock"
@@ -23,9 +23,10 @@
         </div>
         <div class="w-3/4 flex items-start overflow-x-auto py-5">
           <div
-            v-for="item in theme.themes"
-            :key="item"
+            v-for="(item, i) in theme.themes"
+            :key="i"
             class="bg-blue-600 text-white ml-6 py-2 rounded w-52 text-sm text-center flex-shrink-0 cursor-pointer border border-transparent transition ease-in hover:text-blue-600 hover:bg-transparent hover:border-blue-600"
+            @click="open(item)"
           >
             {{ item }}
           </div>
@@ -55,6 +56,11 @@ export default {
       type: Array,
       default: () => [],
     },
+  },
+  methods: {
+    open(item) {
+      this.$emit('open', item)
+    }
   }
 }
 </script>
