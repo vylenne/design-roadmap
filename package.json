@@ -13,6 +13,7 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
+    "@webzlodimir/vue-bottom-sheet": "^1.3.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "tailwindcss": "^3.1.4",
