@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center w-24 py-1 rounded-lg text-white text-sm mr-3" :class="typeClass">
+  <div class="text-center w-24 py-1 rounded-lg text-white text-sm h-fit" :class="typeClass">
     {{ typeOfResource }}
   </div>
 </template>

@@ -14,10 +14,10 @@
       />
       <h1 class="text-3xl font-semibold mb-5">{{ resourceCategory }}</h1>
       <p class="w-3/4 mb-10">{{ resourceDescription }}</p>
-      <div class="grid grid-cols-2">
-        <div v-for="(item, i) in resourceLinks" :key="i" class="flex mb-5">
-          <TagComponent :type-id="item.id" :type-of-resource="item.tag" />
-          <a :href="item.link" target="_blank" class="mt-0.5">{{ item.title }}</a>
+      <div class="grid grid-cols-2 gap-x-10 gap-y-0">
+        <div v-for="(item, i) in resourceLinks" :key="i" class="grid grid-cols-6 gap-x-2 mb-5">
+          <TagComponent :type-id="item.id" :type-of-resource="item.tag"/>
+          <a :href="item.link" target="_blank" class="mt-0.5 col-span-5" :class="linkColor">{{ item.title }}</a>
         </div>
       </div>
     </div>
@@ -37,6 +37,10 @@ export default {
     TagComponent
 },
   props: {
+    id: {
+      type: String,
+      default: '1',
+    },
     resource: {
       type: Object,
       default: () => ({}),
@@ -57,6 +61,18 @@ export default {
     resourceLinks() {
       return this.resource?.links ?? ''
     },
+    linkColor() {
+      switch (this.id) {
+        case '1':
+          return 'hover:text-blue-500'
+        case '2':
+          return 'hover:text-red-500'
+        case '3':
+          return 'hover:text-purple-500'
+        default:
+          return 'hover:text-blue-500'
+      }
+    }
   },
   methods: {
     close() {
