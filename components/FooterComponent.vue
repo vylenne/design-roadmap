@@ -1,21 +1,27 @@
 <template>
-  <footer class="flex justify-between py-10 border-t mt-10 text-sm">
-    <div class="w-2/3">
-      <p class="mb-8 w-3/5">
-        Если у вас есть материалы, которыми вы бы хотели поделиться, вы можете
-        написать нам в
+  <footer
+    class="flex flex-col lg:flex-row justify-between py-6 lg:py-10 border-t mt-6 lg:mt-10 text-sm"
+  >
+    <div class="w-full p-4 lg:p-0 lg:w-2/3">
+      <p class="mb-8 w-full lg:w-3/5">
+        Если у&nbsp;вас есть материалы, которыми вы&nbsp;бы хотели поделиться,
+        вы&nbsp;можете написать нам&nbsp;в
         <a
           class="text-green-600 hover:underline"
           href="https://t.me/vylenne"
           target="_blank"
-        >телеграм</a> или на <a
+          >телеграм</a
+        >
+        или на
+        <a
           class="text-green-600 hover:underline"
           href="mailto:v.vylenne@gmail.com"
           target="_blank"
-        >почту</a>.
+          >почту</a
+        >.
       </p>
 
-      <div class="flex">
+      <div class="flex flex-col lg:flex-row">
         <p class="mr-8">
           Перевод —
           <a
@@ -26,7 +32,7 @@
           </a>
         </p>
 
-        <p class="mr-8">
+        <p class="mr-8 my-2 lg:my-0">
           Дизайн —
           <a
             class="text-blue-700 hover:underline"
@@ -53,11 +59,11 @@
         </p>
       </div>
     </div>
-    <div class="self-end">
+    <div class="self-center mt-4 lg:mt-0 lg:self-end">
       <NuxtLink to="/">
         <Logo class="h-4" />
       </NuxtLink>
-      <p class="text-right text-sm mt-1 text-gray-600">© 2022</p>
+      <p class="text-center lg:text-right text-sm mt-1 text-gray-600">© 2022</p>
     </div>
   </footer>
 </template>

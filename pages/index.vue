@@ -1,10 +1,10 @@
 <template>
   <div class="min-h-full h-full container mx-auto pt-10 flex flex-col">
-    <h1 class="text-5xl font-bold text-center">Роадмапы для дизайнеров 2022</h1>
-    <p class="mt-6 mb-10 text-center">
-      Выберите направление, в котором вы хотите развиваться.
+    <h1 class="text-2xl lg:text-5xl font-bold text-center">Роадмапы для дизайнеров 2022</h1>
+    <p class="mt-4 lg:mt-6 mb-5 lg:mb-10 mx-7 lg:mx-0 text-center">
+      Выберите направление, в&nbsp;котором вы&nbsp;хотите развиваться.
     </p>
-    <div class="columns-3 gap-8 flex flex-1">
+    <div class="columns-3 gap-8 flex flex-1 flex-col lg:flex-row px-5 lg:px-0">
       <UIUXDesign />
       <MobileDesign />
       <ProductDesign />

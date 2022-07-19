@@ -16,7 +16,7 @@
       Все в ваших руках. Нарабатывайте практику и будет вам счастье!:)
     </h2>
     <Footer />
-    <Popup ref="wrapper" :resource="resource" />
+    <Popup :id="data.id" ref="wrapper" :resource="resource" />
   </div>
 </template>
 
@@ -34,15 +34,15 @@ export default {
   data() {
     return {
       data,
-      resource: null
+      resource: null,
     }
   },
   methods: {
     open(category) {
-      const resource = data.content.filter(item => item.category === category)
+      const resource = data.content.filter((item) => item.category === category)
       this.resource = resource[0] ?? {}
       this.$refs.wrapper.$refs.popup.open()
-    }
+    },
   },
 }
 </script>
