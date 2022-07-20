@@ -1,13 +1,14 @@
 <template>
   <NuxtLink
     to="/product"
-    class="w-full bg-purple-200 text-gray-800 rounded-md py-8 px-6 flex flex-col justify-between relative transition hover:bg-purple-300"
+    class="w-full bg-purple-200 text-gray-800 rounded-md p-4 lg:py-8 lg:px-6 flex flex-col justify-between relative transition hover:bg-purple-300"
     event=""
   >
     <div
-      class="absolute rounded-md bg-opacity-40 bg-slate-400 text-white z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
+      class="absolute rounded-md bg-opacity-60 bg-gray-500 text-white z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
     >
       <svg
+        class="h-12 lg:h-auto"
         width="80"
         height="80"
         viewBox="0 0 90 90"
@@ -20,11 +21,9 @@
       </svg>
       <p class="text-2xl font-semibold">Скоро!</p>
     </div>
-    <p class="text-3xl font-bold">Product design</p>
-    <div class="flex justify-between items-end">
-      <div>
-      </div>
-      <Product class="w-1/3" />
+    <p class="text-2xl lg:text-3xl font-bold">Product design</p>
+    <div class="flex justify-end items-end">
+      <Product class="w-1/3 h-20 lg:h-28 -mr-5" />
     </div>
   </NuxtLink>
 </template>

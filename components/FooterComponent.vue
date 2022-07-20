@@ -1,9 +1,9 @@
 <template>
   <footer
-    class="flex flex-col lg:flex-row justify-between py-6 lg:py-10 border-t mt-6 lg:mt-10 text-sm"
+    class="flex flex-col lg:flex-row justify-between py-0 lg:py-10 border-t mt-6 lg:mt-10 mb-2 lg:mb-0 text-sm"
   >
-    <div class="w-full p-4 lg:p-0 lg:w-2/3">
-      <p class="mb-8 w-full lg:w-3/5">
+    <div class="w-full px-4 py-6 lg:p-0 lg:w-2/3">
+      <p class="mb-4 lg:mb-8 w-full lg:w-3/5">
         Если у&nbsp;вас есть материалы, которыми вы&nbsp;бы хотели поделиться,
         вы&nbsp;можете написать нам&nbsp;в
         <a
@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="self-center mt-4 lg:mt-0 lg:self-end">
-      <NuxtLink to="/">
+      <NuxtLink :event="isMain ? '' : 'click'" to="/">
         <Logo class="h-4" />
       </NuxtLink>
       <p class="text-center lg:text-right text-sm mt-1 text-gray-600">© 2022</p>
@@ -74,5 +74,10 @@ import Logo from './svg/Logo.vue'
 export default {
   name: 'FooterComponent',
   components: { Logo },
+  data() {
+    return {
+      isMain: false
+    }
+  }
 }
 </script>
