@@ -15,9 +15,20 @@
       <h1 class="text-3xl font-semibold mb-5">{{ resourceCategory }}</h1>
       <p class="w-3/4 mb-10">{{ resourceDescription }}</p>
       <div class="grid grid-cols-2 gap-x-10 gap-y-0">
-        <div v-for="(item, i) in resourceLinks" :key="i" class="grid grid-cols-6 gap-x-2 mb-5">
-          <TagComponent :type-id="item.id" :type-of-resource="item.tag"/>
-          <a :href="item.link" target="_blank" class="mt-0.5 col-span-5" :class="linkColor">{{ item.title }}</a>
+        <div
+          v-for="(item, i) in resourceLinks"
+          :key="i"
+          class="flex"
+        >
+          <a
+            :href="item.link"
+            target="_blank"
+            class="flex mb-4"
+            :class="linkColor"
+          >
+            <TagComponent :type-id="item.id" :type-of-resource="item.tag" class="flex mr-4" />
+            {{ item.title }}</a
+          >
         </div>
       </div>
     </div>
@@ -34,8 +45,8 @@ export default {
   components: {
     VueBottomSheet,
     Close,
-    TagComponent
-},
+    TagComponent,
+  },
   props: {
     id: {
       type: String,
@@ -72,7 +83,7 @@ export default {
         default:
           return 'hover:text-blue-500'
       }
-    }
+    },
   },
   methods: {
     close() {

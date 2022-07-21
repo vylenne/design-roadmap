@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full h-full container mx-auto py-10 flex flex-col relative">
+  <div class="min-h-full h-auto container mx-auto pt-6 lg:pt-10 flex flex-col relative">
     <BackToMain />
     <h1 class="text-4xl font-semibold">{{ data.title }}</h1>
     <p class="mt-6 mb-8 w-3/4">
