@@ -25,7 +25,7 @@
           <div
             v-for="(item, i) in theme.themes"
             :key="i"
-            class="bg-blue-600 text-white mx-auto lg:ml-6 lg:mr-0 mt-4 lg:mt-0 py-2 rounded w-4/5 lg:w-52 text-sm text-center flex-shrink-0 cursor-pointer border border-transparent transition ease-in hover:text-blue-600 hover:bg-transparent hover:border-blue-600"
+            class="bg-blue-600 text-white mx-auto lg:ml-6 lg:mr-0 mt-4 lg:mt-0 py-2 rounded w-5/6 lg:w-52 text-sm text-center flex-shrink-0 cursor-pointer border border-transparent transition ease-in hover:text-blue-600 hover:bg-transparent hover:border-blue-600"
             :class="i === 0 ? 'mt-0' : ''"
             @click="open(item)"
           >

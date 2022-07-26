@@ -2,33 +2,37 @@
   <vue-bottom-sheet
     ref="popup"
     max-width="100%"
-    max-height="45%"
+    max-height="50%"
     :rounded="false"
     :is-full-screen="true"
     :overlay-color="overlayColorSelect"
   >
-    <div class="py-10 container mx-auto overflow-y-scroll relative">
+    <div class="p-4 lg:py-10 container mx-auto overflow-y-scroll relative">
       <Close
-        class="absolute top-10 right-0 z-10 cursor-pointer"
+        class="absolute top-4 lg:top-10 right-2 lg:right-0 z-10 cursor-pointer"
         @click.native="close"
       />
-      <h1 class="text-3xl font-semibold mb-5">{{ resourceCategory }}</h1>
-      <p class="w-3/4 mb-10">{{ resourceDescription }}</p>
-      <div class="grid grid-cols-2 gap-x-10 gap-y-0">
-        <div
-          v-for="(item, i) in resourceLinks"
-          :key="i"
-          class="flex"
-        >
+      <h1 class="text-2xl lg:text-3xl font-semibold mb-3 lg:mb-5">
+        {{ resourceCategory }}
+      </h1>
+      <p class="w-full lg:w-3/4 mb-5 lg:mb-10">{{ resourceDescription }}</p>
+      <div class="grid lg:grid-cols-2 gap-x-10 gap-y-0">
+        <div v-for="(item, i) in resourceLinks" :key="i" class="flex">
           <a
             :href="item.link"
             target="_blank"
-            class="flex mb-4"
+            class="grid grid-cols-8 lg:grid-cols-6 w-full gap-2 mb-4"
             :class="linkColor"
           >
-            <TagComponent :type-id="item.id" :type-of-resource="item.tag" class="flex mr-4" />
-            {{ item.title }}</a
-          >
+            <TagComponent
+              :type-id="item.id"
+              :type-of-resource="item.tag"
+              class="col-span-2 lg:col-span-1"
+            />
+            <span class="col-span-6 lg:col-span-5 mt-0.5">
+              {{ item.title }}
+            </span>
+          </a>
         </div>
       </div>
     </div>
@@ -37,8 +41,8 @@
 
 <script>
 import VueBottomSheet from '@webzlodimir/vue-bottom-sheet'
-import Close from './svg/Close.vue'
 import TagComponent from './TagComponent.vue'
+import Close from './svg/Close.vue'
 
 export default {
   name: 'PopupComponent',

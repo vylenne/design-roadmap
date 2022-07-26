@@ -12,7 +12,7 @@
         @open="open($event)"
       />
     </div>
-    <h2 class="text-xl font-medium my-4 px-4 lg:p-0">
+    <h2 class="text-lg lg:text-xl font-medium my-4 px-4 lg:p-0">
       Все в ваших руках. Нарабатывайте практику и будет вам счастье!:)
     </h2>
     <Footer />
