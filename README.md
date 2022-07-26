@@ -1,18 +1,17 @@
-# design-roadmap
+![Design roadmap 2022](main.png)
+***
 
-## Build Setup
+<h2 align="center" style="border: none; padding-bottom: 0;">
+  <a href="https://designroadmap.co" target="_blank">designroadmap.co</a>
+</h2>
 
-```bash
-# install dependencies
-$ yarn install
+***
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+<!-- <div>
+  <p align="center">Приветствую вас на странице кодовой базы роадмапа!</p>
+</div> -->
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
+### Активные участники проекта:
+Создатель, дизайнер и разработчик – [Вилена](https://t.me/vylenne) <br/>
+Переводчица на английский, украинский, французский и корейский - [Алекс](https://t.me/iamleejeongmi) <br/>
+Дизайнер – [Паша](https://t.me/plmk_dsgn)
