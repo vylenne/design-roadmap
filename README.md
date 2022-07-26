@@ -1,9 +1,9 @@
 ![Design roadmap 2022](main.png)
 ***
 
-<h2 align="center" style="border: none; padding-bottom: 0;">
+<h3 align="center">
   <a href="https://designroadmap.co" target="_blank">designroadmap.co</a>
-</h2>
+</h3>
 
 ***
 
