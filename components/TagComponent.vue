@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center py-1 rounded-lg text-white text-sm h-fit" :class="typeClass">
+  <div class="text-center py-1 rounded-lg text-sm font-medium h-fit" :class="typeClass">
     {{ typeOfResource }}
   </div>
 </template>
@@ -21,13 +21,13 @@ export default {
     typeClass() {
       switch (this.typeId) {
         case 1:
-          return 'bg-blue-500'
+          return 'bg-blue-50 text-blue-700'
         case 2:
-          return 'bg-indigo-500'
+          return 'bg-indigo-50 text-indigo-700'
         case 3:
-          return 'bg-orange-500'
+          return 'bg-orange-50 text-orange-700'
         default:
-          return 'bg-gray-500'
+          return 'bg-gray-50 text-gray-700'
       }
     },
   },

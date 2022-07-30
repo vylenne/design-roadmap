@@ -2,12 +2,12 @@
   <vue-bottom-sheet
     ref="popup"
     max-width="100%"
-    max-height="50%"
+    max-height="60%"
     :rounded="false"
     :is-full-screen="true"
     :overlay-color="overlayColorSelect"
   >
-    <div class="p-4 lg:py-10 container mx-auto overflow-y-scroll relative">
+    <div class="p-4 lg:py-10 container mx-auto relative">
       <Close
         class="absolute top-4 lg:top-10 right-2 lg:right-0 z-10 cursor-pointer"
         @click.native="close"
