@@ -9,6 +9,6 @@
 
 <script>
 export default {
-    name: "MobileDesign"
+  name: 'MobileDesign',
 }
 </script>

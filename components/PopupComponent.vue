@@ -9,7 +9,7 @@
   >
     <div class="p-4 lg:py-10 container mx-auto relative">
       <Close
-        class="absolute top-4 lg:top-10 right-2 lg:right-0 z-10 cursor-pointer"
+        class="absolute top-4 lg:top-10 right-2 lg:right-0 z-10 cursor-pointer text-gray-800 dark:text-gray-200"
         @click.native="close"
       />
       <h1 class="text-2xl lg:text-3xl font-semibold mb-3 lg:mb-5">
@@ -79,13 +79,13 @@ export default {
     linkColor() {
       switch (this.id) {
         case '1':
-          return 'hover:text-blue-500'
+          return 'hover:text-blue-500 dark:hover:text-blue-300'
         case '2':
-          return 'hover:text-red-500'
+          return 'hover:text-red-500 dark:hover:text-red-300'
         case '3':
-          return 'hover:text-purple-500'
+          return 'hover:text-purple-500 dark:hover:text-purple-300'
         default:
-          return 'hover:text-blue-500'
+          return 'hover:text-blue-500 dark:hover:text-blue-300'
       }
     },
   },
@@ -99,7 +99,11 @@ export default {
 
 <style scoped>
 .bottom-sheet >>> .bottom-sheet__pan {
-  display: none;
+  @apply hidden;
+}
+
+.bottom-sheet >>> .bottom-sheet__card {
+  @apply dark:bg-slate-600;
 }
 
 /* .bottom-sheet >>> .bottom-sheet__card,
