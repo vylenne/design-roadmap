@@ -1,3 +1,6 @@
+import en from './locales/en.json'
+import ru from './locales/ru.json'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -44,7 +47,24 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    '@nuxtjs/i18n'
+  ],
+  i18n: {
+    vueI18nLoader: true,
+    locales: ['en', 'ru'],
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    },
+    vueI18n: {
+      locale: 'en',
+      fallbackLocale: 'en',
+      messages: { en, ru }
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

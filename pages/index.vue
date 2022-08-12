@@ -5,12 +5,12 @@
       <h1
         class="text-2xl lg:text-4xl mx-4 lg:mx-0 font-bold text-center dark:text-gray-300"
       >
-        Роадмапы для дизайнеров 2022
+        {{ $t('mainHeader') }}
       </h1>
       <p
         class="mt-2 lg:mt-4 mb-4 lg:mb-10 mx-4 lg:mx-0 text-center dark:text-gray-300"
       >
-        Выберите направление, в&nbsp;котором вы&nbsp;хотите развиваться.
+        {{ $t('mainDescription') }}
       </p>
       <div
         class="columns-3 gap-4 lg:gap-8 flex grow flex-col lg:flex-row px-4 lg:px-0"
