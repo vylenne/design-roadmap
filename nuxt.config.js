@@ -25,7 +25,7 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -52,7 +52,18 @@ export default {
   ],
   i18n: {
     vueI18nLoader: true,
-    locales: ['en', 'ru'],
+    locales: [
+      {
+        code: "en",
+        name: "English",
+        file: 'locales/en.json'
+      },
+      {
+        code: "ru",
+        name: "Русский",
+        file: 'locales/ru.json'
+      }
+    ],
     defaultLocale: 'en',
     detectBrowserLanguage: {
       useCookie: true,
@@ -60,7 +71,6 @@ export default {
       redirectOn: 'root'
     },
     vueI18n: {
-      locale: 'en',
       fallbackLocale: 'en',
       messages: { en, ru }
     }

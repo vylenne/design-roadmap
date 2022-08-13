@@ -106,11 +106,6 @@ export default {
   @apply dark:bg-slate-600;
 }
 
-/* .bottom-sheet >>> .bottom-sheet__card,
-.bottom-sheet >>> .bottom-sheet__content {
-  height: auto !important;
-} */
-
 @media screen and (max-width: 450px) {
   .bottom-sheet >>> .bottom-sheet__pan {
     display: block;
