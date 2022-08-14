@@ -7,7 +7,7 @@
       <button
         class="bg-gray-800 text-white rounded-full py-2 px-4 mr-4 hover:bg-gray-900 dark:text-gray-300 hover:shadow-lg"
       >
-        Поддержать проект
+        {{ $t('support') }}
       </button>
       <a
         class="hover:underline rounded-full p-2 hover:bg-gray-100 dark:hover:bg-gray-800"

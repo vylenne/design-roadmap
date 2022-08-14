@@ -28,43 +28,43 @@ export default {
         {
           link: '/ui-ux',
           color: 'bg-blue-100 hover:bg-blue-200',
-          title: 'UI/UX Design',
+          title: this.$i18n.t('ways.uiux'),
           blocked: false
         },
         {
           link: '/mobile',
           color: 'bg-red-100 hover:bg-red-200',
-          title: 'Mobile Design',
+          title: this.$i18n.t('ways.mobile'),
           blocked: true
         },
         {
           link: '/product',
           color: 'bg-purple-100 hover:bg-purple-200',
-          title: 'Product Design',
+          title: this.$i18n.t('ways.product'),
           blocked: true
         },
         {
           link: '/motion',
           color: 'bg-orange-100 hover:bg-orange-200',
-          title: 'Motion Design',
+          title: this.$i18n.t('ways.motion'),
           blocked: true
         },
         {
           link: '/graphic',
           color: 'bg-lime-100 hover:bg-lime-200',
-          title: 'Graphic Design',
+          title: this.$i18n.t('ways.graphic'),
           blocked: true
         },
         {
           link: '/3d',
           color: 'bg-rose-100 hover:bg-rose-200',
-          title: '3D Design',
+          title: this.$i18n.t('ways.3D'),
           blocked: true
         },
         {
           link: '/game',
           color: 'bg-sky-100 hover:bg-sky-200',
-          title: 'Game Design',
+          title: this.$i18n.t('ways.game'),
           blocked: true
         }
       ]

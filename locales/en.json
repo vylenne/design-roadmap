@@ -2,6 +2,15 @@
   "language": "English",
   "mainHeader": "Designers' roadmap 2022",
   "mainDescription": "Select the field you'd like to learn about.",
+  "ways": {
+    "uiux": "UI/UX design",
+    "mobile": "Mobile design",
+    "product": "Product design",
+    "motion": "Motion design",
+    "graphic": "Graphic design",
+    "3D": "3D design",
+    "game": "Game design"
+  },
   "soon": "Soon!",
   "practice": "Everything in your hands. Accumulate practice and you will be happy! :)",
   "uiux": {
@@ -386,5 +395,18 @@
         ]
       }
     ]
-  }
+  },
+  "footer": {
+    "resources": "If you have any materials you would like to share, you can text us at ",
+    "telegram": "Telegram ",
+    "orVia": "or via ",
+    "email": "email",
+    "translation": "Translation — ",
+    "design": "Design — ",
+    "designAndDevelopment": "Design and development -",
+    "alex": "Alex",
+    "pavel": "Pavel",
+    "vilena": "Vilena"
+  },
+  "support": "Support a project"
 }

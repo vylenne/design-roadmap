@@ -4,57 +4,56 @@
   >
     <div class="w-full px-4 py-6 lg:p-0 lg:w-2/3">
       <p class="mb-4 lg:mb-8 w-full lg:w-3/5">
-        Если у&nbsp;вас есть материалы, которыми вы&nbsp;бы хотели поделиться,
-        вы&nbsp;можете написать нам&nbsp;в
+        {{ $t('footer.resources') }}
         <a
           class="text-green-600 dark:text-green-500 hover:underline"
           href="https://t.me/vylenne"
           target="_blank"
-          >телеграм</a
+          >{{ $t('footer.telegram') }}</a
         >
-        или на
+        {{ $t('footer.orVia') }}
         <a
           class="text-green-600 dark:text-green-500 hover:underline"
           href="mailto:v.vylenne@gmail.com"
           target="_blank"
-          >почту</a
+          >{{ $t('footer.email') }}</a
         >.
       </p>
 
       <div class="flex flex-col lg:flex-row">
         <p class="mr-8">
-          Перевод —
+          {{ $t('footer.translation') }}
           <a
             class="text-pink-500 dark:text-pink-400 hover:underline"
             href="https://t.me/iamleejeongmi"
             target="_blank"
-            >Алекс
+            >{{ $t('footer.alex') }}
           </a>
         </p>
 
         <p class="mr-8 my-2 lg:my-0">
-          Дизайн —
+          {{ $t('footer.design') }}
           <a
             class="text-blue-700 dark:text-blue-600 hover:underline"
             href="https://t.me/plmk_dsgn"
             target="_blank"
-            >Павел</a
+            >{{ $t('footer.pavel') }}</a
           >/<a
             class="text-green-600 dark:text-green-500 hover:underline"
             href="https://t.me/vylenne"
             target="_blank"
-            >Вилена</a
+            >{{ $t('footer.vilena') }}</a
           >
         </p>
 
         <p>
-          Дизайн и разработка —
+          {{ $t('footer.designAndDevelopment') }}
           <a
             class="text-green-600 dark:text-green-500 hover:underline"
             href="https://t.me/vylenne"
             target="_blank"
           >
-            Вилена
+            {{ $t('footer.vilena') }}
           </a>
         </p>
       </div>
@@ -63,7 +62,7 @@
       <button
         class="bg-gray-900 text-white rounded-full py-2 px-4 mb-4 hover:bg-gray-700 dark:text-gray-300 hover:shadow-lg"
       >
-        Поддержать проект
+        {{ $t('support') }}
       </button>
       <Logo class="text-gray-700 dark:text-gray-300" />
       <p
