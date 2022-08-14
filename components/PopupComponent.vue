@@ -40,14 +40,12 @@
 </template>
 
 <script>
-import VueBottomSheet from '@webzlodimir/vue-bottom-sheet'
 import TagComponent from './TagComponent.vue'
 import Close from './svg/Close.vue'
 
 export default {
   name: 'PopupComponent',
   components: {
-    VueBottomSheet,
     Close,
     TagComponent,
   },
@@ -98,16 +96,16 @@ export default {
 </script>
 
 <style scoped>
-.bottom-sheet >>> .bottom-sheet__pan {
+.bottom-sheet :deep() .bottom-sheet__pan {
   @apply hidden;
 }
 
-.bottom-sheet >>> .bottom-sheet__card {
+.bottom-sheet :deep() .bottom-sheet__card {
   @apply dark:bg-slate-600;
 }
 
 @media screen and (max-width: 450px) {
-  .bottom-sheet >>> .bottom-sheet__pan {
+  .bottom-sheet :deep() .bottom-sheet__pan {
     display: block;
   }
 }

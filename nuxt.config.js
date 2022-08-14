@@ -1,14 +1,6 @@
-import en from './locales/en.json'
-import ru from './locales/ru.json'
-
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
-
-  // Target: https://go.nuxtjs.dev/config-target
+  ssr: true,
   target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Design roadmap',
     htmlAttrs: {
@@ -27,57 +19,38 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
+  // modules: ['@nuxtjs/i18n'],
+  // i18n: {
+  //   locales: [
+  //     {
+  //       code: 'en',
+  //       name: 'English'
+  //     },
+  //     {
+  //       code: 'ru',
+  //       name: 'Русский'
+  //     }
+  //   ],
+  //   defaultLocale: 'en',
+  //   vueI18n: {
+  //     messages: {
+  //       'ru': require('./locales/ru.json'),
+  //       'en': require('./locales/en.json')
+  //     }
+  //   }
+  // },
+  router: {
+    middleware: 'i18n'
+  },
+  plugins: ['~/plugins/i18n.js', { src: '~/plugins/vue-bottom-sheet.js', ssr: false }],
+  build: { vendor: ['vue-i18n'] },
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-analytics'
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxtjs/i18n'
-  ],
-  i18n: {
-    vueI18nLoader: true,
-    locales: [
-      {
-        code: "en",
-        name: "English",
-        file: 'locales/en.json'
-      },
-      {
-        code: "ru",
-        name: "Русский",
-        file: 'locales/ru.json'
-      }
-    ],
-    defaultLocale: 'en',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    },
-    vueI18n: {
-      fallbackLocale: 'en',
-      messages: { en, ru }
-    }
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
   googleAnalytics: {
     id: 'G-FNX1Z1GSEE',
     autoTracking: {

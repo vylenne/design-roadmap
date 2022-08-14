@@ -1,7 +1,6 @@
 <template>
-  <div class="pt-6 dark:bg-gray-800 dark:text-gray-200">
+  <div class="pt-6">
     <div class="container mx-auto min-h-full h-auto flex flex-col">
-      <Header />
       <h1 class="text-2xl lg:text-4xl mx-4 lg:mx-0 font-bold text-center dark:text-gray-200">
         {{ $t('mainHeader') }}
       </h1>
@@ -17,13 +16,12 @@
 </template>
 
 <script>
-import Header from '@/components/HeaderComponent.vue'
 import Footer from '@/components/FooterComponent.vue'
 import CardComponent from '@/components/CardComponent.vue'
 
 export default {
   name: 'MainPage',
-  components: { Header, Footer, CardComponent },
+  components: { Footer, CardComponent },
   data() {
     return {
       directions: [

@@ -1,9 +1,9 @@
 <template>
   <header
-    class="bg-white dark:bg-gray-700 px-10 py-3 rounded-md flex justify-between items-center mb-8 mx-auto w-full max-w-4xl"
+    class="bg-white dark:bg-gray-700 px-10 py-3 rounded-md flex justify-between items-center mb-4 mx-auto w-full max-w-4xl"
   >
     <div class="flex items-center">
-      <back-to-main v-if="$nuxt.$route.path !== '/'" class="mr-4" />
+      <back-to-main v-if="$nuxt.$route.path !== '/' && $nuxt.$route.path !== `/${$i18n.locale}`" class="mr-4" />
       <button
         class="bg-gray-800 text-white rounded-full py-2 px-4 mr-4 hover:bg-gray-900 dark:text-gray-300 hover:shadow-lg"
       >

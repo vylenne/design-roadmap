@@ -1,7 +1,6 @@
 <template>
   <div class="pt-6 dark:bg-gray-800 dark:text-gray-200">
     <div class="container mx-auto min-h-full h-auto flex flex-col">
-      <Header />
       <h1 class="text-4xl font-semibold px-4 lg:p-0 dark:text-gray-300">
         {{ $t('uiux.title') }}
       </h1>
@@ -24,14 +23,13 @@
 </template>
 
 <script>
-import Header from '@/components/HeaderComponent.vue'
 import BlockOfContent from '@/components/BlockOfContent.vue'
 import Footer from '@/components/FooterComponent.vue'
 import Popup from '@/components/PopupComponent.vue'
 
 export default {
   name: 'UiUxDesign',
-  components: { BlockOfContent, Footer, Popup, Header },
+  components: { BlockOfContent, Footer, Popup },
   data() {
     return {
       resource: null,
