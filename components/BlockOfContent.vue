@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="flex flex-col justify-center items-center w-full lg:w-1/4">
-      <PathLine class="h-14 lg:h-20" />
+      <PathLine class="h-14 lg:h-20 text-gray-600" />
       <h2 class="text-2xl font-semibold my-2 lg:my-4 text-center">
         {{ title }}
       </h2>
     </div>
-    <div v-for="(theme, id) in dataOfBlock" :key="id" class="border-b border-dashed last:border-0 px-4 lg:p-0">
-      <PathLineSmall class="w-full lg:w-1/4 flex items-center mt-2 lg:mt-5" :class="id === 0 ? 'mt-0' : ''" />
+    <div v-for="(theme, id) in dataOfBlock" :key="id" class="border-b border-dashed border-gray-300 dark:border-gray-600 last:border-0 px-4 lg:p-0">
+      <PathLineSmall class="w-full lg:w-1/4 flex items-center mt-2 lg:mt-5 text-gray-600" :class="id === 0 ? 'mt-0' : ''" />
       <div class="flex flex-col lg:flex-row items-center">
         <div class="flex flex-col items-center w-full lg:w-1/4">
           <div
@@ -27,7 +27,7 @@
           </div>
         </div>
       </div>
-      <PathLineSmall v-if="id !== dataOfBlock.length - 1" class="w-full lg:w-1/4 flex items-center mb-2 lg:mb-5" />
+      <PathLineSmall v-if="id !== dataOfBlock.length - 1" class="w-full lg:w-1/4 flex items-center mb-2 lg:mb-5 text-gray-600" />
     </div>
   </div>
 </template>
@@ -51,7 +51,6 @@ export default {
   },
   methods: {
     open(item) {
-      console.log(item)
       this.$emit('open', item)
     },
   },

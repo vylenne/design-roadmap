@@ -7,7 +7,7 @@
       <p class="mt-2 lg:mt-4 mb-4 lg:mb-10 mx-4 lg:mx-0 text-center dark:text-gray-200">
         {{ $t('mainDescription') }}
       </p>
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8 mx-6 lg:m-0">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8 mx-4 lg:m-0">
         <card-component v-for="direction in directions" :key="direction.name" :direction="direction" />
       </div>
       <Footer />

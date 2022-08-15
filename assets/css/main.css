@@ -7,7 +7,7 @@
 html,
 body {
   font-family: 'Inter', sans-serif;
-  @apply bg-gray-50 h-full;
+  @apply bg-gray-50;
 }
 
 #__nuxt,

@@ -37,7 +37,7 @@
               "Typography basics",
               "Typography principles",
               "Fonts",
-              "The perception of the text"
+              "Text perception"
             ]
           },
           {
@@ -65,332 +65,332 @@
     ],
     "content": [
       {
-        "category": "База о сетках",
-        "description": "Это скелет любого проекта, особенно крупного. Они состоят из «невидимых» линий, на которых располагаются ваши элементы дизайна. Это связывает их в общую систему и поддерживает гармонию, в общем, все по фен-шую.",
+        "category": "Grid basics",
+        "description": "This is a framework of any project, especially a large one. It consists of «invisible» lines which help you settle the design elements. This connects them into a common system and maintains harmony, creates feng shui-ed view.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
-            "title": "Все, что надо знать о сетках."
+            "title": "All you need to know about greeds."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-common-ui-layouts-7073293697f8",
-            "title": "Адаптивные сетки и их правильное использование."
+            "title": "Adaptive grids and ways to use them correctly."
           },
           {
             "id": 2,
             "tag": "Video",
             "link": "https://youtu.be/n_V_aLqYPI0",
-            "title": "Сетки в веб-дизайне и дизайне пользовательского интерфейса."
+            "title": "Grids in Web design and UI design."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design",
-            "title": "Как использовать сетки в веб-дизайне."
+            "title": "Ways to use grids in Web design."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://buninux.com/learn/ui-grid-best-practices",
-            "title": "UI сетки лучшие практики."
+            "title": "UI grids best practices."
           }
         ]
       },
       {
-        "category": "Модульные сетки",
-        "description": " На основе модулей(прямоугольников с заданными высотой и шириной) строится сетка — вертикальные и горизонтальные линии, разделяющие страницу на прямоугольники. Сетка определяет, как в целом будет выглядеть макет и где будут расположены отдельные элементы: заголовки, тексты, изображения.",
+        "category": "Modular grids",
+        "description": "Grid is being built on modules basis (rectangles with given height and width),  which consist of vertical and horizontal lines dividing the page into rectangles. The grid determines how the layout will look as a whole and where the individual elements will be located: headers, texts, images.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://help.figma.com/hc/en-us/articles/360040450513",
-            "title": "Что такое модульная сетка и как с ней работать?"
+            "title": "What is a modular grid and how to work with it?"
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://help.figma.com/hc/en-us/articles/360040450513",
-            "title": "Модульные сетки в фигме."
+            "title": "Modular grids in Figma."
           },
           {
             "id": 3,
             "tag": "Book",
             "link": "https://www.amazon.com/Grid-Modular-Production-Newpapers-Magazines/dp/047128923X",
-            "title": "Модульная система для разработки и производства газет, журналов и книг."
+            "title": "Modular system for the development and production of newspapers, magazines and books."
           }
         ]
       },
       {
         "category": "8pt Grid",
-        "description": "Существует системный подход выбора размеров элементов и пространства - 8pt система, лежащая в основе Material Design. В общем случае предъявляется требование задавать размеры кратные 8. Сетка, элементы, поля, отступы — всё кратно 8.",
+        "description": "There is a system approach for selecting the size of elements and space, which is called 8pt system, which is the basis of Material Design. In general, it is required to set sizes multiples of 8. Grid, elements, fields, indentations - all should be multiples of 8.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179",
-            "title": "Полное руководство по 8pt сетке."
+            "title": "Detailed 8pt grid guide."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://spec.fm/specifics/8-pt-grid",
-            "title": "Спецификация по 8pt сетке."
+            "title": "8pt grid specification."
           },
           {
             "id": 3,
             "tag": "Book",
             "link": "https://typographyprinciples.obys.agency/",
-            "title": "The Grid: Модульная система для разработки и производства газет, журналов и книг."
+            "title": "The Grid: Modular system for developing and manufacturing newspapers, magazines and books."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://www.marcandrew.me/how-to-create-stronger-layouts-with-the-8pt-grid/",
-            "title": "Как создавать сильнейшие макеты с использованием 8pt сетки."
+            "title": "How to create the strongest layout using the 8pt grid."
           }
         ]
       },
       {
-        "category": "Колонки в сетках",
-        "description": "Колонки — это вертикальные разделы сетки. Чем больше колонок в сетке, тем выше ее гибкость.",
+        "category": "Grid columns",
+        "description": "Columns are vertical sections of the grid. The more columns in the grid, the greater its flexibility is.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://talent-house.online/web-design-12-column-grid/",
-            "title": "12-колоночная система."
+            "title": "12 Column system."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://visme.co/blog/layout-design/#:~:text=Column%20grids%20can%20have%20as,create%20a%20different%20visual%20layout.",
-            "title": "Быстрый ликбез о колонках для создания профессионального дизайна."
+            "title": "A fast touch on the columns for a professional design."
           }
         ]
       },
       {
-        "category": "Гибкие и жесткие сетки",
-        "description": "Где-то там дизайнер не слышал про гибкие сетки? Теперь узнает.",
+        "category": "Flexible and rigid grids",
+        "description": "Is there a designer out there who hasn’t heard of flexible grids? Now they're gonna find out.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://experience.sap.com/fiori-design-web/flexible-grid/",
-            "title": "\"Мягкие\" сетки."
+            "title": "\"Soft\" grids."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://www.secretstache.com/blog/how-to-effectively-break-out-of-the-grid/",
-            "title": "Как эффективно \"сломать\" сетку."
+            "title": "How to actually \"break\" the grid."
           }
         ]
       },
       {
-        "category": "Базовое о типографике",
-        "description": "Типографика — свод законов, правил и норм оформления текста, основанных на изучении восприятия набора читателем. Знание и понимание типографики превращают текст в инструмент построения композиции, делают его живым, придают характер и способность передать идею не только при помощи содержания, но и графически.",
+        "category": "Typography basics",
+        "description": "Typography is a set of laws, rules and text standards, which are based on the reader’s perception of the typography. Knowledge and understanding of typography helps to make the text into a tool of composition construction, bring it to life, give it the ability to convey an idea not only by the help of content, but also graphically.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://medium.muz.li/why-ui-design-is-all-about-typography-370250d89ce8",
-            "title": "Почему дизайн пользовательского интерфейса - это все о типографике."
+            "title": "Why is the conception of UI all about typography."
           },
           {
             "id": 2,
             "tag": "Video",
             "link": "https://www.youtube.com/watch?v=agbh1wbfJt8",
-            "title": "Полный и долгий гайд по типографике."
+            "title": "Comprehensive and long-form guide to typography."
           },
           {
             "id": 2,
             "tag": "Video",
             "link": "https://www.youtube.com/watch?v=hnhEqyChb2Q",
-            "title": "Основы типографии — 8 правил для повышения ваших навыков."
+            "title": "The essentials of typography - 8 rules to enhance your skills."
           }
         ]
       },
       {
-        "category": "Принципы типографики",
-        "description": "Искусство владения типографикой несомненно должно быть одним из самых базовых навыков. В конце концов, эта вещь может сделать дизайн лучше или разрушить его.",
+        "category": "Typography principles",
+        "description": "The art of typography must undoubtedly be one of the designer's most basic skills. After all, this is what can make the design better or absolutely ruin it.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://typographyprinciples.obys.agency/",
-            "title": "Лонгрид про сами знаете что."
+            "title": "You already know what is this longrid about."
           },
           {
             "id": 2,
             "tag": "Video",
             "link": "https://www.youtube.com/watch?v=QrNi9FmdlxY",
-            "title": "10 правил типографики."
+            "title": "10 typography rules."
           },
           {
             "id": 3,
             "tag": "Book",
             "link": "https://www.amazon.co.uk/dp/1631596470?psc=1&th=1&linkCode=gs2&tag=vhpoet-21",
-            "title": "Основы типографии: 100 принципов дизайна для работы с шрифтом."
+            "title": "The basics of typography: 100 principles of design for working with font."
           }
         ]
       },
       {
-        "category": "Шрифты",
-        "description": "Внешний вид текста способен заметно изменить восприятие информации.",
+        "category": "Fonts",
+        "description": "The appearance of the text can make a significant difference to the perception of the information.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
-            "title": "Гайд по выбору шрифта."
+            "title": "How to choose your font: Guide."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxplanet.org/7-things-to-remember-when-selecting-fonts-for-your-design-ec1e592266c5",
-            "title": "Какие вещи стоит помнить при выборе шрифта."
+            "title": "Which things are worth remembering when choosing a font."
           },
           {
             "id": 3,
             "tag": "Book",
             "link": "https://www.readthistwice.com/lists/best-typography-books",
-            "title": "Лучшие книги по типографике."
+            "title": "The best books on typography."
           }
         ]
       },
       {
-        "category": "Восприятие текста",
-        "description": "Не заставляй меня сильно думать над текстом, пожалуйста.",
+        "category": "Text perception",
+        "description": "Don't make me overthink the words, please.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://thecodest.co/blog/how-typography-affects-the-users-perception-of-the-webpage",
-            "title": "Как типографика влияет на восприятие веб-страницы пользователем."
+            "title": "The way typography impacts the user's perception of the webpage."
           }
         ]
       },
       {
-        "category": "Теория цвета",
-        "description": "Цвета присутствуют во всем, выражаясь во множестве оттенков, градиентов и комбинаций. Для дизайнеров теория цвета является руководящим принципом, определяющим восприятие и, в частности, применение цветов.",
+        "category": "Color theory",
+        "description": "Colors are present in everything, in many shades, gradients and combinations. For designers, color theory is a guiding principle in determining perception and, in particular, the use of colors.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://webflow.com/blog/color-theory",
-            "title": "Теория цвета для дизайнеров: руководство для начинающих."
+            "title": "Color theory for designers: a guide for newbies."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://www.toptal.com/designers/visual/color-theory-for-designers",
-            "title": "Теория цвета и принципы."
+            "title": "Color theory and it's principles."
           },
           {
             "id": 2,
             "tag": "Video",
             "link": "https://www.youtube.com/watch?v=KMS3VwGh3HY",
-            "title": "Как выбрать цвета (Простой 3-щаговый процесс)."
+            "title": "How to pick colors (simple 3-bit process)."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxplanet.org/how-to-pick-a-colour-palette-in-3-easy-steps-c6383144e88d",
-            "title": "Выбор цветовой палитры."
+            "title": "Choosing a color palette."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://bootcamp.uxdesign.cc/the-60-30-10-color-rule-for-ui-design-32695d04a7c2",
-            "title": "Цветовое правило 60:30:10 для дизайна пользовательского интерфейса."
+            "title": "60:30:10 Color rule for UI design."
           }
         ]
       },
       {
-        "category": "Психология цвета",
-        "description": "А вы не замечали, что какому-то цвету мы отдаем большее предпочтение?",
+        "category": "Color psychology",
+        "description": "Have you noticed people being colour-conscious?",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43",
-            "title": "Цветовая психология: Блестящая помощь в UX-дизайне."
+            "title": "Color Psychology: Brilliant help in UX design."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
-            "title": "Является ли дизайн продукта только тем, как люди взаимодействуют с ним?"
+            "title": "Is product design defined just by the way people interact with it?"
           }
         ]
       },
       {
-        "category": "Иллюстрации",
-        "description": "Помните, как вам было в детстве интересно смотреть картинки в Bookх и фантазировать? Примерно тот же принцип заложен и в веб – привлечь внимание.",
+        "category": "Illustrations",
+        "description": "Do you remember how ineresting it was for you to look through the pictures in books and fantasize? So the same principle is embedded in the web - to attract attention.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://medium.com/litslink/how-illustrations-boost-the-ux-7a961c4ba897",
-            "title": "Как иллюстрации прокачивают UX."
+            "title": "The way illustrations upgrade UX."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://blog.prototypr.io/8-dos-and-don-ts-while-applying-illustrations-in-your-design-546476031c7e",
-            "title": "8 \"Что делать и чего не делать\" при применении иллюстраций в дизайне."
+            "title": "8 \"Do's and Don'ts\" while using illustrations in your design."
           }
         ]
       },
       {
-        "category": "Иконки",
-        "description": "Иконки маленькие, но это не значит, что они не важны. Благодаря их правильному использованию, пользователь может сразу же понять, о чем конкретно идет речь и какие смыслы хотел донести дизайнер.",
+        "category": "Icons",
+        "description": "Icons are small, but that doesn’t mean they’re not important. Due to their correct use, the user can immediately understand what exactly is the passage about and what meaning the designer wanted to convey.",
         "links": [
           {
             "id": 1,
             "tag": "Article",
             "link": "https://blog.prototypr.io/how-to-design-better-icons-869d067fddbf",
-            "title": "Как задизайнить лучшие иконки."
+            "title": "How to design the best icons."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://minoraxis.medium.com/icon-grids-keylines-demystified-5a228fe08cfd",
-            "title": "Анатомия и сетка иконок."
+            "title": "Icons' grids and anatomy."
           }
         ]
       },
       {
-        "category": "Типы изображений",
-        "description": "Просто дополнительная информация для дизайнеров, весьма нужная и полезная.",
+        "category": "Image types",
+        "description": "Just extra information for developers, very necessary and helpful.",
         "links": [
           {
             "id": 2,
             "tag": "Video",
             "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
-            "title": "Типы файлов изображений (JPG, PNG, SVG, GIF)."
+            "title": "Image file types (JPG, PNG, SVG, GIF)."
           }
         ]
       },
       {
-        "category": "Подача информации",
-        "description": "Любые сведения надо уметь преподнести. Даже самая блестящая идея не будет оценена вашим руководством по достоинству, если Вы пробурчите ее себе под нос или завязнете в малозначительных подробностях.",
+        "category": "Info presentation",
+        "description": "You should be able to present any information. Even the most brilliant idea will not be appreciated by your leadership if you grumble it under your breath or get stuck in minor details.",
         "links": [
           {
             "id": 3,
             "tag": "Book",
             "link": "https://www.dexigner.com/directory/detail/24364",
-            "title": "Мысли об информационном дизайне."
+            "title": "Thoughts on Information Design."
           },
           {
             "id": 1,
             "tag": "Article",
             "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
-            "title": "Как упростить свой дизайн."
+            "title": "How to simplify your design."
           }
         ]
       }
@@ -408,5 +408,5 @@
     "pavel": "Pavel",
     "vilena": "Vilena"
   },
-  "support": "Support a project"
+  "support": "Support a project"
 }

@@ -28,7 +28,7 @@ export default {
         case 2:
           return 'bg-indigo-50 text-indigo-700 dark:bg-indigo-600 dark:bg-opacity-80'
         case 3:
-          return 'bg-orange-50 text-orange-700 dark:bg-orange-600 dark:bg-opacity-80'
+          return 'bg-orange-50 text-orange-700 dark:bg-orange-500 dark:bg-opacity-80'
         default:
           return 'bg-gray-50 text-gray-700 dark:bg-gray-600 dark:bg-opacity-60'
       }

@@ -8,9 +8,7 @@
         {{ $t('uiux.description') }}
       </p>
       <div v-for="(block, i) in $t('uiux.categories')" :key="i">
-        <BlockOfContent
-          :title="$t(`uiux.categories.${i}.title`)"
-          :data-of-block="$t(`uiux.categories.${i}.content`)"
+        <BlockOfContent :title="$t(`uiux.categories.${i}.title`)" :data-of-block="$t(`uiux.categories.${i}.content`)"
           @open="open($event)" />
       </div>
       <h2 class="text-lg lg:text-xl font-medium my-4 px-4 lg:p-0">
@@ -29,7 +27,7 @@ import Popup from '@/components/PopupComponent.vue'
 
 export default {
   name: 'UiUxDesign',
-  components: { BlockOfContent, Footer, Popup },
+  components: { BlockOfContent, Popup, Footer },
   data() {
     return {
       resource: null,
@@ -37,8 +35,8 @@ export default {
   },
   methods: {
     open(category) {
-      // const resource = data.content.filter((item) => item.category === category)
-      this.resource = {}
+      const resource = this.$i18n.t(`uiux.content`).filter((item) => item.category === category)
+      this.resource = resource[0] ?? {}
       this.$refs.wrapper.$refs.popup.open()
     },
   },

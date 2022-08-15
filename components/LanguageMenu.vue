@@ -1,7 +1,7 @@
 <template>
   <div class="flex relative cursor-pointer" tabindex="0" @blur="open = false">
     <div
-      class="text-gray-700 dark:text-gray-300 rounded w-32 py-2 focus:outline-none flex items-center justify-center"
+      class="text-gray-700 dark:text-gray-300 rounded w-28 lg:w-32 py-2 focus:outline-none flex items-center justify-center"
       @click="open = !open">
       <span> {{ $t('language') }}</span>
       <Arrow class="transition h-5 w-5" :class="open ? '-rotate-90' : 'rotate-90'" />
