@@ -20,30 +20,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   css: ['@/assets/css/main.css'],
-  // modules: ['@nuxtjs/i18n'],
-  // i18n: {
-  //   locales: [
-  //     {
-  //       code: 'en',
-  //       name: 'English'
-  //     },
-  //     {
-  //       code: 'ru',
-  //       name: 'Русский'
-  //     }
-  //   ],
-  //   defaultLocale: 'en',
-  //   vueI18n: {
-  //     messages: {
-  //       'ru': require('./locales/ru.json'),
-  //       'en': require('./locales/en.json')
-  //     }
-  //   }
-  // },
   router: {
     middleware: 'i18n'
   },
-  plugins: ['~/plugins/i18n.js', { src: '~/plugins/vue-bottom-sheet.js', ssr: false }],
+  plugins: ['~/plugins/i18n.js', { src: '~/plugins/vue-bottom-sheet.js', ssr: false }, '~/plugins/v-click-outside.js'],
   build: { vendor: ['vue-i18n'] },
   components: true,
   buildModules: [

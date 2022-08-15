@@ -408,5 +408,16 @@
     "pavel": "Pavel",
     "vilena": "Vilena"
   },
-  "support": "Support a project"
+  "support": "Support a project",
+  "supportModal": {
+    "title": "This is a window to support us and the project!",
+    "description": "If you like a designers' roadmap and you would like it to develop and get better, then you know what to do!",
+    "ownerText": "Financial support by roubles to the creator of the project!",
+    "translatorText": "Are you from Ukraine? You can donate to a cute translator!",
+    "cryptoText": "Do you have a crypto wallet? You can also support us!",
+    "toCard": "To a card",
+    "toPaypal": "To PayPal",
+    "toCryptoWallet": "To crypto wallet",
+    "thanks": "The funds will be used to pay for the domain with hosting, as well as to pay for those who work on the project on an ongoing basis. Thank you!♡"
+  }
 }
