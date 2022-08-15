@@ -8,9 +8,9 @@ export default ({ app, store }) => {
     locale: store.state.locale,
     fallbackLocale: 'ru',
     messages: {
-      'en': require('~/locales/en.json'),
-      'ru': require('~/locales/ru.json')
-    }
+      en: require('~/locales/en.json'),
+      ru: require('~/locales/ru.json'),
+    },
   })
 
   app.i18n.path = (link) => {

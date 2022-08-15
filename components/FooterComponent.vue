@@ -60,7 +60,8 @@
     </div>
     <div class="self-center mt-4 lg:mt-0 lg:self-end">
       <button
-        class="bg-gray-900 text-white rounded-full py-2 px-4 mb-4 hover:bg-gray-700 dark:text-gray-300 hover:shadow-lg"
+        class="bg-gray-900 text-white rounded-full py-2 px-4 mb-4 transition dark:text-gray-300 hover:shadow-md hover:shadow-gray-300"
+        @click="openModal"
       >
         {{ $t('support') }}
       </button>
@@ -71,6 +72,7 @@
         © 2022
       </p>
     </div>
+    <modal-component v-if="open" @close-modal="closeModal" />
   </footer>
 </template>
 
@@ -80,5 +82,18 @@ import Logo from './svg/Logo.vue'
 export default {
   name: 'FooterComponent',
   components: { Logo },
+  data() {
+    return {
+      open: false,
+    }
+  },
+  methods: {
+    openModal() {
+      this.open = true
+    },
+    closeModal() {
+      this.open = false
+    },
+  },
 }
 </script>

@@ -3,18 +3,18 @@ export const state = () => ({
   locales: [
     {
       code: 'ru',
-      name: 'Русский'
+      name: 'Русский',
     },
     {
       code: 'en',
-      name: 'English'
-    }
+      name: 'English',
+    },
   ],
-  locale: 'en'
+  locale: 'en',
 })
 
 export const getters = {
-  dark: (state) => state.dark
+  dark: (state) => state.dark,
 }
 
 export const mutations = {
@@ -22,8 +22,8 @@ export const mutations = {
     state.dark = bool
   },
   SET_LANG(state, locale) {
-    if (state.locales.find(el => el.code === locale)) {
+    if (state.locales.find((el) => el.code === locale)) {
       state.locale = locale
     }
-  }
+  },
 }

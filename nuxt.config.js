@@ -17,24 +17,28 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: ['@/assets/css/main.css'],
   router: {
-    middleware: 'i18n'
+    middleware: 'i18n',
   },
-  plugins: ['~/plugins/i18n.js', { src: '~/plugins/vue-bottom-sheet.js', ssr: false }, '~/plugins/v-click-outside.js'],
+  plugins: [
+    '~/plugins/i18n.js',
+    { src: '~/plugins/vue-bottom-sheet.js', ssr: false },
+    '~/plugins/v-click-outside.js',
+  ],
   build: { vendor: ['vue-i18n'] },
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
   ],
   googleAnalytics: {
     id: 'G-FNX1Z1GSEE',
     autoTracking: {
-      screenview: true
-    }
-  }
+      screenview: true,
+    },
+  },
 }
