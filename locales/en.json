@@ -1,0 +1,420 @@
+{
+  "language": "English",
+  "mainHeader": "Designers' roadmap 2022",
+  "mainDescription": "Select the field you'd like to learn about.",
+  "ways": {
+    "uiux": "UI/UX design",
+    "mobile": "Mobile design",
+    "product": "Product design",
+    "motion": "Motion design",
+    "graphic": "Graphic design",
+    "3D": "3D design",
+    "game": "Game design"
+  },
+  "soon": "Soon!",
+  "practice": "Everything in your hands. Accumulate practice and you will be happy! :)",
+  "uiux": {
+    "id": "001",
+    "title": "UI/UX designer",
+    "description": "A creative specialist who designs users interfaces. UI and UX are two different design profiles, but commonly most of the tasks in both directions are closely related and therefore they are usually managed by one person.",
+    "categories": [
+      {
+        "title": "Design theory",
+        "content": [
+          {
+            "category": "Grids",
+            "themes": [
+              "Grid basics",
+              "Modular grids",
+              "8pt Grid",
+              "Grid columns",
+              "Flexible and rigid grids"
+            ]
+          },
+          {
+            "category": "Typography",
+            "themes": [
+              "Typography basics",
+              "Typography principles",
+              "Fonts",
+              "Text perception"
+            ]
+          },
+          {
+            "category": "Color",
+            "themes": ["Color theory", "Color psychology"]
+          },
+          {
+            "category": "Optionally",
+            "themes": [
+              "Illustrations",
+              "Icons",
+              "Image types",
+              "Info presentation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Expanding the topic (in progress)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "Grid basics",
+        "description": "This is a framework of any project, especially a large one. It consists of «invisible» lines which help you settle the design elements. This connects them into a common system and maintains harmony, creates feng shui-ed view.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
+            "title": "All you need to know about greeds."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-common-ui-layouts-7073293697f8",
+            "title": "Adaptive grids and ways to use them correctly."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://youtu.be/n_V_aLqYPI0",
+            "title": "Grids in Web design and UI design."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design",
+            "title": "Ways to use grids in Web design."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://buninux.com/learn/ui-grid-best-practices",
+            "title": "UI grids best practices."
+          }
+        ]
+      },
+      {
+        "category": "Modular grids",
+        "description": "Grid is being built on modules basis (rectangles with given height and width),  which consist of vertical and horizontal lines dividing the page into rectangles. The grid determines how the layout will look as a whole and where the individual elements will be located: headers, texts, images.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
+            "title": "What is a modular grid and how to work with it?"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
+            "title": "Modular grids in Figma."
+          },
+          {
+            "id": 3,
+            "tag": "Book",
+            "link": "https://www.amazon.com/Grid-Modular-Production-Newpapers-Magazines/dp/047128923X",
+            "title": "Modular system for the development and production of newspapers, magazines and books."
+          }
+        ]
+      },
+      {
+        "category": "8pt Grid",
+        "description": "There is a system approach for selecting the size of elements and space, which is called 8pt system, which is the basis of Material Design. In general, it is required to set sizes multiples of 8. Grid, elements, fields, indentations - all should be multiples of 8.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179",
+            "title": "Detailed 8pt grid guide."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://spec.fm/specifics/8-pt-grid",
+            "title": "8pt grid specification."
+          },
+          {
+            "id": 3,
+            "tag": "Book",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "The Grid: Modular system for developing and manufacturing newspapers, magazines and books."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.marcandrew.me/how-to-create-stronger-layouts-with-the-8pt-grid/",
+            "title": "How to create the strongest layout using the 8pt grid."
+          }
+        ]
+      },
+      {
+        "category": "Grid columns",
+        "description": "Columns are vertical sections of the grid. The more columns in the grid, the greater its flexibility is.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://talent-house.online/web-design-12-column-grid/",
+            "title": "12 Column system."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://visme.co/blog/layout-design/#:~:text=Column%20grids%20can%20have%20as,create%20a%20different%20visual%20layout.",
+            "title": "A fast touch on the columns for a professional design."
+          }
+        ]
+      },
+      {
+        "category": "Flexible and rigid grids",
+        "description": "Is there a designer out there who hasn’t heard of flexible grids? Now they're gonna find out.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://experience.sap.com/fiori-design-web/flexible-grid/",
+            "title": "\"Soft\" grids."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.secretstache.com/blog/how-to-effectively-break-out-of-the-grid/",
+            "title": "How to actually \"break\" the grid."
+          }
+        ]
+      },
+      {
+        "category": "Typography basics",
+        "description": "Typography is a set of laws, rules and text standards, which are based on the reader’s perception of the typography. Knowledge and understanding of typography helps to make the text into a tool of composition construction, bring it to life, give it the ability to convey an idea not only by the help of content, but also graphically.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.muz.li/why-ui-design-is-all-about-typography-370250d89ce8",
+            "title": "Why is the conception of UI all about typography."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=agbh1wbfJt8",
+            "title": "Comprehensive and long-form guide to typography."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=hnhEqyChb2Q",
+            "title": "The essentials of typography - 8 rules to enhance your skills."
+          }
+        ]
+      },
+      {
+        "category": "Typography principles",
+        "description": "The art of typography must undoubtedly be one of the designer's most basic skills. After all, this is what can make the design better or absolutely ruin it.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "You already know what is this longrid about."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=QrNi9FmdlxY",
+            "title": "10 typography rules."
+          },
+          {
+            "id": 3,
+            "tag": "Book",
+            "link": "https://www.amazon.co.uk/dp/1631596470?psc=1&th=1&linkCode=gs2&tag=vhpoet-21",
+            "title": "The basics of typography: 100 principles of design for working with font."
+          }
+        ]
+      },
+      {
+        "category": "Fonts",
+        "description": "The appearance of the text can make a significant difference to the perception of the information.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "title": "How to choose your font: Guide."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/7-things-to-remember-when-selecting-fonts-for-your-design-ec1e592266c5",
+            "title": "Which things are worth remembering when choosing a font."
+          },
+          {
+            "id": 3,
+            "tag": "Book",
+            "link": "https://www.readthistwice.com/lists/best-typography-books",
+            "title": "The best books on typography."
+          }
+        ]
+      },
+      {
+        "category": "Text perception",
+        "description": "Don't make me overthink the words, please.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://thecodest.co/blog/how-typography-affects-the-users-perception-of-the-webpage",
+            "title": "The way typography impacts the user's perception of the webpage."
+          }
+        ]
+      },
+      {
+        "category": "Color theory",
+        "description": "Colors are present in everything, in many shades, gradients and combinations. For designers, color theory is a guiding principle in determining perception and, in particular, the use of colors.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://webflow.com/blog/color-theory",
+            "title": "Color theory for designers: a guide for newbies."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.toptal.com/designers/visual/color-theory-for-designers",
+            "title": "Color theory and it's principles."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=KMS3VwGh3HY",
+            "title": "How to pick colors (simple 3-bit process)."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/how-to-pick-a-colour-palette-in-3-easy-steps-c6383144e88d",
+            "title": "Choosing a color palette."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://bootcamp.uxdesign.cc/the-60-30-10-color-rule-for-ui-design-32695d04a7c2",
+            "title": "60:30:10 Color rule for UI design."
+          }
+        ]
+      },
+      {
+        "category": "Color psychology",
+        "description": "Have you noticed people being colour-conscious?",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43",
+            "title": "Color Psychology: Brilliant help in UX design."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
+            "title": "Is product design defined just by the way people interact with it?"
+          }
+        ]
+      },
+      {
+        "category": "Illustrations",
+        "description": "Do you remember how ineresting it was for you to look through the pictures in books and fantasize? So the same principle is embedded in the web - to attract attention.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/litslink/how-illustrations-boost-the-ux-7a961c4ba897",
+            "title": "The way illustrations upgrade UX."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://blog.prototypr.io/8-dos-and-don-ts-while-applying-illustrations-in-your-design-546476031c7e",
+            "title": "8 \"Do's and Don'ts\" while using illustrations in your design."
+          }
+        ]
+      },
+      {
+        "category": "Icons",
+        "description": "Icons are small, but that doesn’t mean they’re not important. Due to their correct use, the user can immediately understand what exactly is the passage about and what meaning the designer wanted to convey.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://blog.prototypr.io/how-to-design-better-icons-869d067fddbf",
+            "title": "How to design the best icons."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://minoraxis.medium.com/icon-grids-keylines-demystified-5a228fe08cfd",
+            "title": "Icons' grids and anatomy."
+          }
+        ]
+      },
+      {
+        "category": "Image types",
+        "description": "Just extra information for developers, very necessary and helpful.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "title": "Image file types (JPG, PNG, SVG, GIF)."
+          }
+        ]
+      },
+      {
+        "category": "Info presentation",
+        "description": "You should be able to present any information. Even the most brilliant idea will not be appreciated by your leadership if you grumble it under your breath or get stuck in minor details.",
+        "links": [
+          {
+            "id": 3,
+            "tag": "Book",
+            "link": "https://www.dexigner.com/directory/detail/24364",
+            "title": "Thoughts on Information Design."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
+            "title": "How to simplify your design."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "resources": "If you have any materials you would like to share, you can text us at ",
+    "telegram": "Telegram ",
+    "orVia": "or via ",
+    "email": "email",
+    "translation": "Translation — ",
+    "design": "Design — ",
+    "designAndDevelopment": "Design and development -",
+    "alex": "Alex",
+    "pavel": "Pavel",
+    "vilena": "Vilena"
+  },
+  "support": "Support a project",
+  "supportModal": {
+    "title": "This is a window to support us and the project!",
+    "description": "If you like a designers' roadmap and you would like it to develop and get better, then you know what to do!",
+    "ownerText": "Financial support by roubles to the creator of the project!",
+    "translatorText": "Are you from Ukraine? You can donate to a cute translator!",
+    "cryptoText": "Do you have a crypto wallet? You can also support us!",
+    "toCard": "To a card",
+    "toPaypal": "To PayPal",
+    "toCryptoWallet": "To crypto wallet",
+    "thanks": "The funds will be used to pay for the domain with hosting, as well as to pay for those who work on the project on an ongoing basis. Thank you!"
+  }
+}

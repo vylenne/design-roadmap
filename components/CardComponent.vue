@@ -1,16 +1,17 @@
 <template>
   <NuxtLink
-    to="/mobile"
-    class="w-full bg-red-200 text-gray-800 rounded-md p-4 lg:py-8 lg:px-6 flex flex-col justify-between relative transition hover:bg-red-300"
-    event=""
+    :to="direction.link"
+    class="w-full rounded-md p-4 pb-10 lg:pt-8 lg:pb-16 lg:px-6 transition relative"
+    :class="[direction.color, { 'pointer-events-none': direction.blocked }]"
   >
     <div
-      class="absolute rounded-md bg-opacity-60 text-white bg-gray-500 z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
+      v-if="direction.blocked"
+      class="absolute rounded-md bg-opacity-50 bg-gray-500 text-white z-10 top-0 bottom-0 right-0 left-0 flex flex-col items-center justify-center"
     >
       <svg
-        class="h-12 lg:h-auto"
-        width="80"
-        height="80"
+        class="h-8 lg:h-auto"
+        width="40"
+        height="40"
         viewBox="0 0 90 90"
         fill="none"
       >
@@ -19,20 +20,21 @@
           fill="white"
         />
       </svg>
-      <p class="text-2xl font-semibold">Скоро!</p>
+      <p class="text-xl font-semibold">{{ $t('soon') }}</p>
     </div>
-    <p class="text-2xl lg:text-3xl font-bold">Mobile design</p>
-    <div class="flex justify-end items-end">
-      <Mobile class="w-1/3 h-20 lg:h-28 -mr-5" />
-    </div>
+    <p class="text-2xl lg:text-3xl font-bold text-gray-800">
+      {{ direction.title }}
+    </p>
   </NuxtLink>
 </template>
-
 <script>
-import Mobile from '~/components/svg/Mobile.vue'
-
 export default {
-  name: 'MobileDesign',
-  components: { Mobile },
+  name: 'CardComponent',
+  props: {
+    direction: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
 }
 </script>

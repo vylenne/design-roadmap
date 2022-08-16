@@ -9,11 +9,8 @@
 
 <script>
 export default {
-    name: "ProductDesign"
-
+  name: 'ProductDesign',
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
