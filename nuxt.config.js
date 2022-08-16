@@ -21,7 +21,7 @@ export default {
   },
   css: ['@/assets/css/main.css'],
   router: {
-    middleware: 'i18n',
+    // middleware: 'i18n',
   },
   plugins: [
     '~/plugins/i18n.js',
@@ -41,4 +41,24 @@ export default {
       screenview: true,
     },
   },
+  modules: [
+    '@nuxtjs/i18n',
+  ],
+  i18n: {
+    strategy: 'no_prefix',
+    locales: ['ru', 'en'],
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        ru: require('./locales/ru.json'),
+        en: require('./locales/en.json'),
+      }
+    }
+  }
 }

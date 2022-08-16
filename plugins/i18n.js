@@ -1,23 +1,18 @@
-import Vue from 'vue'
-import VueI18n from 'vue-i18n'
+export default ({ app }) => {
+  // app.i18n = new VueI18n({
+  //   locale: store.state.locale,
+  //   fallbackLocale: 'ru',
+  //   messages: {
+  //     en: require('~/locales/en.json'),
+  //     ru: require('~/locales/ru.json'),
+  //   },
+  // })
 
-Vue.use(VueI18n)
+  // app.i18n.path = (link) => {
+  //   if (app.i18n.locale === app.i18n.fallbackLocale) {
+  //     return `/${link}`
+  //   }
 
-export default ({ app, store }) => {
-  app.i18n = new VueI18n({
-    locale: store.state.locale,
-    fallbackLocale: 'ru',
-    messages: {
-      en: require('~/locales/en.json'),
-      ru: require('~/locales/ru.json'),
-    },
-  })
-
-  app.i18n.path = (link) => {
-    if (app.i18n.locale === app.i18n.fallbackLocale) {
-      return `/${link}`
-    }
-
-    return `/${app.i18n.locale}/${link}`
-  }
+  //   return `/${app.i18n.locale}/${link}`
+  // }
 }

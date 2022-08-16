@@ -60,7 +60,7 @@
     </div>
     <div class="self-center mt-4 lg:mt-0 lg:self-end">
       <button
-        class="bg-gray-900 text-white rounded-full py-2 px-4 mb-4 transition dark:text-gray-300 hover:shadow-md hover:shadow-gray-300"
+        class="bg-gray-900 text-white rounded-full py-2 px-4 mb-4 transition dark:text-gray-300 hover:shadow-md hover:shadow-gray-300 dark:hover:shadow-gray-600"
         @click="openModal"
       >
         {{ $t('support') }}

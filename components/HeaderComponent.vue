@@ -12,7 +12,7 @@
           class="mr-4 hidden md:block"
         />
         <button
-          class="bg-gray-800 text-white w-40 lg:w-auto text-sm lg:text-base rounded-full py-2 px-2 lg:px-4 md:mr-4 transition dark:text-gray-300 hover:shadow-md hover:shadow-gray-300"
+          class="bg-gray-800 text-white w-40 lg:w-auto text-sm lg:text-base rounded-full py-2 px-2 lg:px-4 md:mr-4 transition dark:text-gray-300 hover:shadow-md hover:shadow-gray-300 dark:hover:shadow-gray-600"
           @click="openModal"
         >
           {{ $t('support') }}

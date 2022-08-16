@@ -11,7 +11,7 @@
       />
     </div>
     <div
-      class="bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 shadow-md rounded-b-md overflow-hidden absolute mt-12 top-1 z-20 text-center"
+      class="bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 shadow-md rounded-b-md overflow-hidden absolute mt-10 lg:mt-12 top-1 z-20 text-center"
       :class="{ hidden: !open }"
     >
       <div
@@ -44,9 +44,10 @@ export default {
   },
   methods: {
     switchLanguage(lang) {
+      this.$i18n.setLocale(lang)
       document.cookie = `locale=${lang}`
       this.open = false
-      location.reload()
+      // location.reload()
     },
   },
 }
