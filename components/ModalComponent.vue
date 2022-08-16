@@ -4,7 +4,7 @@
   >
     <div
       v-click-outside="close"
-      class="relative p-4 lg:px-10 lg:py-8 bg-white rounded-md w-full lg:w-3/5 mx-4 lg:m-0"
+      class="relative p-4 lg:px-10 lg:py-8 bg-white dark:bg-slate-700 rounded-md w-full lg:w-3/5 mx-4 lg:m-0"
     >
       <Close
         class="absolute top-5 lg:top-8 right-5 lg:right-10 z-10 cursor-pointer text-gray-800 dark:text-gray-200"
@@ -17,7 +17,7 @@
         {{ $t('supportModal.description') }}
       </p>
       <div
-        class="grid grid-cols-1 lg:grid-cols-3 gap-x-7 text-sm lg:text-base mb-4 lg:mb-0"
+        class="grid grid-cols-1 lg:grid-cols-3 gap-x-7 text-sm lg:text-base mb-4 lg:mb-0 dark:text-gray-800"
       >
         <div
           class="bg-blue-200 rounded-md p-2 lg:px-4 lg:py-8 flex flex-col justify-between text-center h-auto lg:h-72 mb-4 lg:mb-0"
