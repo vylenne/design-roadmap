@@ -68,7 +68,7 @@
         </div>
       </div>
       <p class="mt-5 lg:mt-10 w-full lg:w-3/4 text-sm lg:text-base">
-        {{ $t('supportModal.thanks') }}
+        {{ $t('supportModal.thanks') }} ❤️
       </p>
     </div>
   </div>
