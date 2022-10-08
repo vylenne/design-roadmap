@@ -42,7 +42,10 @@
           },
           {
             "category": "Color",
-            "themes": ["Color theory", "Color psychology"]
+            "themes": [
+              "Color theory",
+              "Color psychology"
+            ]
           },
           {
             "category": "Extra",
