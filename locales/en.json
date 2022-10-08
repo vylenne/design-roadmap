@@ -45,7 +45,7 @@
             "themes": ["Color theory", "Color psychology"]
           },
           {
-            "category": "Optionally",
+            "category": "Extra",
             "themes": [
               "Illustrations",
               "Icons",
@@ -69,7 +69,7 @@
             "id": 1,
             "tag": "Article",
             "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
-            "title": "All you need to know about greeds."
+            "title": "All you need to know about grids."
           },
           {
             "id": 1,
@@ -101,12 +101,6 @@
         "category": "Modular grids",
         "description": "Grid is being built on modules basis (rectangles with given height and width),  which consist of vertical and horizontal lines dividing the page into rectangles. The grid determines how the layout will look as a whole and where the individual elements will be located: headers, texts, images.",
         "links": [
-          {
-            "id": 1,
-            "tag": "Article",
-            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
-            "title": "What is a modular grid and how to work with it?"
-          },
           {
             "id": 1,
             "tag": "Article",
@@ -368,7 +362,7 @@
           {
             "id": 2,
             "tag": "Video",
-            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "link": "https://www.youtube.com/watch?v=RZD4kfK3I6M",
             "title": "Image file types (JPG, PNG, SVG, GIF)."
           }
         ]
@@ -395,8 +389,8 @@
   },
   "footer": {
     "resources": "If you have any materials you would like to share, you can text us at ",
-    "telegram": "Telegram ",
-    "orVia": "or via ",
+    "telegram": "Telegram",
+    "orVia": " or via ",
     "email": "email",
     "translation": "Translation — ",
     "design": "Design — ",
@@ -407,11 +401,10 @@
   },
   "support": "Support the project",
   "supportModal": {
-    "title": "This is a window to support us and the project!",
-    "description": "If you like a designers' roadmap and you would like it to develop and get better, then you know what to do!",
-    "ownerText": "Financial support by roubles to the creator of the project!",
-    "translatorText": "Want to support Ukraine? Donate to our translator!",
-    "cryptoText": "Got a crypto wallet? You can also support us!",
+    "title": "If you like a designers' roadmap and you would like it to develop, then you know what to do!",
+    "ownerText": "To Project creator (RUB)",
+    "translatorText": "To Tanslator (All currencies)",
+    "cryptoText": "Сrypto wallet (USDT)",
     "toCard": "By card",
     "toPaypal": "By PayPal",
     "toCryptoWallet": "To crypto wallet",

@@ -4,13 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+html {
+  @apply !h-full;
   font-family: 'Inter', sans-serif;
-  @apply bg-gray-50;
+}
+
+body {
+  @apply bg-gray-50 !h-full min-h-full;
 }
 
 #__nuxt,
 #__layout {
-  @apply h-full;
+  @apply !h-full;
 }

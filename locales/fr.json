@@ -1,0 +1,416 @@
+{
+  "language": "Français",
+  "mainHeader": "Routemap des designers 2022.",
+  "mainDescription": "Sélectionnez le champ pour en savoir plus.",
+  "ways": {
+    "uiux": "Design UI/UX",
+    "mobile": "Design mobile",
+    "product": "Design produit",
+    "motion": "Design animé",
+    "graphic": "Design graphique",
+    "3D": "Design 3D",
+    "game": "Design de jeux"
+  },
+  "soon": "Vite",
+  "practice": "Le pouvoir est entre vos mains. Pratiquez et soyez heureux! :)",
+  "uiux": {
+    "id": "001",
+    "title": "Designer UI/UX",
+    "description": "Un(e) spécialiste de la création qui conçoit des interfaces utilisateurs. L’UI et l’UX sont deux profils de conception différents, mais la plupart des tâches dans les deux directions sont étroitement liées et sont donc généralement gérées par une seule personne.",
+    "categories": [
+      {
+        "title": "Théorie du design",
+        "content": [
+          {
+            "category": "Grilles",
+            "themes": [
+              "Les bases des grilles",
+              "Grilles modulaires",
+              "Grille de 8 points",
+              "Colonnes de grille",
+              "Grilles flexibles et rigides"
+            ]
+          },
+          {
+            "category": "Typographique",
+            "themes": [
+              "Les bases de la typo.",
+              "Principes typographiques",
+              "Typos",
+              "La perception du texte"
+            ]
+          },
+          {
+            "category": "Les couleurs",
+            "themes": [
+              "Théorie des couleurs",
+              "Psychologie des couleurs"
+            ]
+          },
+          {
+            "category": "Additionnel",
+            "themes": [
+              "Illustrations",
+              "Icônes",
+              "Types d'images",
+              "Info Présentation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Élargissement du sujet (en cours)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "Les bases des grilles",
+        "description": "C’est un cadre de tout projet, surtout un grand projet. Il se compose de lignes «invisibles» qui vous aident à régler les éléments de conception. Cela les relie dans un système commun et maintient l’harmonie, crée le vue de feng shui.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
+            "title": "Tout le nécessaire sur les grilles."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-common-ui-layouts-7073293697f8",
+            "title": "Les grilles adaptatives et leur utilisation correcte."
+          },
+          {
+            "id": 2,
+            "tag": "Article",
+            "link": "https://youtu.be/n_V_aLqYPI0",
+            "title": "Grilles dans la conception web et la conception de l'IU."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design",
+            "title": "Utilisation des grilles dans la conception web."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://buninux.com/learn/ui-grid-best-practices",
+            "title": "Meilleures pratiques relatives aux grilles d'IU."
+          }
+        ]
+      },
+      {
+        "category": "Grilles modulaires",
+        "description": "La grille est construite sur la base de modules (rectangles avec hauteur et largeur données), qui se composent de lignes verticales et horizontales divisant la page en rectangles. La grille détermine l’apparence de la mise en page dans son ensemble et l’emplacement des éléments individuels : en-têtes, textes, images.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
+            "title": "Grilles modulaires en figma."
+          },
+          {
+            "id": 3,
+            "tag": "Livre",
+            "link": "https://www.amazon.com/Grid-Modular-Production-Newpapers-Magazines/dp/047128923X",
+            "title": "Système modulaire pour le développement et la production de journaux, magazines et livres."
+          }
+        ]
+      },
+      {
+        "category": "Grille de 8 points",
+        "description": "Il existe une approche système pour sélectionner la taille des éléments et de l’espace, qui est appelé système 8pt, qui est la base de la conception des matériaux. En général, il est nécessaire de définir des tailles multiples de 8. Grille, éléments, champs, indentations - tous doivent être des multiples de 8.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179",
+            "title": "Guide détaillé de la grille de 8 points."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://spec.fm/specifics/8-pt-grid",
+            "title": "Spécifications de la grille de 8 points."
+          },
+          {
+            "id": 3,
+            "tag": "Livre",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "La grille : Système modulaire pour le développement et la fabrication de journaux, revues et livres."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.marcandrew.me/how-to-create-stronger-layouts-with-the-8pt-grid/",
+            "title": "Comment créer la meilleure disposition en utilisant la grille à 8 points."
+          }
+        ]
+      },
+      {
+        "category": "Colonnes de la grille",
+        "description": "Les colonnes sont des sections verticales de la grille. Plus il y a de colonnes dans la grille, plus sa flexibilité est grande.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://talent-house.online/web-design-12-column-grid/",
+            "title": "Système de 12 colonnes"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://visme.co/blog/layout-design/#:~:text=Column%20grids%20can%20have%20as,create%20a%20different%20visual%20layout.",
+            "title": "Un clin d'œil sur les colonnes pour un design professionnel."
+          }
+        ]
+      },
+      {
+        "category": "Grilles flexibles et rigides",
+        "description": "Y a-t-il un concepteur qui n’a pas entendu parler de grilles flexibles? Maintenant, on va les découvrir.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://experience.sap.com/fiori-design-web/flexible-grid/",
+            "title": "Grilles \"douces\"."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.secretstache.com/blog/how-to-effectively-break-out-of-the-grid/",
+            "title": "La façon de \"casser\" la grille effectivement."
+          }
+        ]
+      },
+      {
+        "category": "Les bases de la typo",
+        "description": "La typographie est un ensemble de lois, de règles et de normes de texte, qui sont basées sur la perception du lecteur de la typographie. La connaissance et la compréhension de la typographie aident à faire du texte un outil de construction de composition, à le donner vie, à lui donner la capacité de transmettre une idée non seulement à l’aide du contenu, mais aussi graphiquement.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.muz.li/why-ui-design-is-all-about-typography-370250d89ce8",
+            "title": "Pourquoi le design de l'interface utilisateur est une question de typographie."
+          },
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=agbh1wbfJt8",
+            "title": "Manuel de typographie complet et détaillé."
+          },
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=hnhEqyChb2Q",
+            "title": "L’essentiel de la typographie - 8 règles pour améliorer vos compétences."
+          }
+        ]
+      },
+      {
+        "category": "Principes de la typographie",
+        "description": "L’art de la typographie doit sans aucun doute être l’une des compétences de base du concepteur. Après tout, c’est ce qui peut rendre le design meilleur ou absolument ruiner.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "Tu sais déjà de quoi il s’agit."
+          },
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=QrNi9FmdlxY",
+            "title": "10 règles de typographie."
+          },
+          {
+            "id": 3,
+            "tag": "Livre",
+            "link": "https://www.amazon.co.uk/dp/1631596470?psc=1&th=1&linkCode=gs2&tag=vhpoet-21",
+            "title": "Les bases de la typographie : 100 principes de conception pour travailler avec les typos."
+          }
+        ]
+      },
+      {
+        "category": "Typos",
+        "description": "L'apparance du texte peut faire une différence significative dans la façon dont l'information est perçue.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "title": "Comment choisir la police: Guide."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/7-things-to-remember-when-selecting-fonts-for-your-design-ec1e592266c5",
+            "title": "Ce qui mérite un rappel dans le choix d'une police."
+          },
+          {
+            "id": 3,
+            "tag": "Livre",
+            "link": "https://www.readthistwice.com/lists/best-typography-books",
+            "title": "Les meilleurs ouvrages en typographie."
+          }
+        ]
+      },
+      {
+        "category": "Perception textuelle",
+        "description": "Ne me force pas à penser trop, stp.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://thecodest.co/blog/how-typography-affects-the-users-perception-of-the-webpage",
+            "title": "La manière dont la typographie affecte la perception de l'utilisateur de la page Web."
+          }
+        ]
+      },
+      {
+        "category": "Théorie des couleurs",
+        "description": "Les couleurs sont présentes partout, dans de nombreuses nuances, dégradés et combinaisons. Pour les concepteurs, la théorie des couleurs est un principe essentiel pour déterminer la perception et, en particulier, l’utilisation des couleurs.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://webflow.com/blog/color-theory",
+            "title": "Théorie des couleurs pour les designers : un guide pour les débutants."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.toptal.com/designers/visual/color-theory-for-designers",
+            "title": "La théorie des couleurs et ses principesю"
+          },
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=KMS3VwGh3HY",
+            "title": "Choix des couleurs (procédé simple à 3 pas)."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/how-to-pick-a-colour-palette-in-3-easy-steps-c6383144e88d",
+            "title": "Choix d'une palette de couleurs."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://bootcamp.uxdesign.cc/the-60-30-10-color-rule-for-ui-design-32695d04a7c2",
+            "title": "60:30:10 Règle de couleur pour le design de l'IU."
+          }
+        ]
+      },
+      {
+        "category": "Psychologie des couleurs",
+        "description": "Avez-vous remarqué qu'on est sensible aux couleurs?",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43",
+            "title": "Psychologie des couleurs : Aide brillante dans le design UX."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
+            "title": "Le design du produit est-il défini simplement par la manière dont les gens y interagissent?"
+          }
+        ]
+      },
+      {
+        "category": "Illustrations",
+        "description": "Rappelez-vous combien il était inerte pour vous de regarder à travers les images dans les livres et de fantasmer? Donc, le même principe est intégré dans le web - pour attirer l’attention.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://medium.com/litslink/how-illustrations-boost-the-ux-7a961c4ba897",
+            "title": "Mise à niveau des illustrations UX."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://blog.prototypr.io/8-dos-and-don-ts-while-applying-illustrations-in-your-design-546476031c7e",
+            "title": "8 \"Ce qu'il faut faire et à éviter\" lorsque vous utilisez des illustrations dans votre design."
+          }
+        ]
+      },
+      {
+        "category": "Icônes",
+        "description": "Les icônes sont petites, mais cela ne signifie pas qu’elles ne sont pas importantes. En raison de leur utilisation correcte, l’utilisateur peut immédiatement comprendre ce qu’est exactement le passage et ce que le concepteur voulait transmettre.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://blog.prototypr.io/how-to-design-better-icons-869d067fddbf",
+            "title": "Conception des meilleures icônes."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://minoraxis.medium.com/icon-grids-keylines-demystified-5a228fe08cfd",
+            "title": "Grilles et structure anatomique des icônes."
+          }
+        ]
+      },
+      {
+        "category": "Types d'images",
+        "description": "Simplement des infos complémentaires pour les développeurs, très nécessaires et utiles.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=RZD4kfK3I6M",
+            "title": "Types de fichiers image (JPG, PNG, SVG, GIF)."
+          }
+        ]
+      },
+      {
+        "category": "Info Présentation",
+        "description": "Vous devriez être en mesure de présenter toute information. Même l’idée la plus brillante ne sera pas appréciée par votre direction si vous la grognez sous votre souffle ou vous coincez dans des détails mineurs.",
+        "links": [
+          {
+            "id": 3,
+            "tag": "Livre",
+            "link": "https://www.dexigner.com/directory/detail/24364",
+            "title": "Réflexions sur le design informationnel."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
+            "title": "Comment simplifier votre design."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "resources": "Si vous avez du matériel à partager, vous pouvez nous contacter à ",
+    "telegram": "Telegram",
+    "orVia": " ou par ",
+    "email": "email",
+    "translation": "Traduction — ",
+    "design": "Design — ",
+    "designAndDevelopment": "Conception et développement — ",
+    "alex": "Alex",
+    "pavel": "Pavel",
+    "vilena": "Vilena"
+  },
+  "support": "Soutien au projet",
+  "supportModal": {
+    "title": "Si vous aimez Routemap des designers et vous souhaitez qu'il soit développé et amélioré, alors vous savez quoi faire!",
+    "ownerText": "Au créateur du projet (RUB)",
+    "translatorText": "Au traductrice (toutes monnaies confondues)",
+    "cryptoText": "Сrypto wallet (USDT)",
+    "toCard": "Par carte bancaire",
+    "toPaypal": "Par Paypal",
+    "toCryptoWallet": "Au portefeuille crypto",
+    "thanks": "Les fonds seront utilisés pour payer le domaine avec hosting, ainsi que pour payer ceux qui travaillent sur le projet continueusement. Merci!"
+  }
+}

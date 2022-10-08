@@ -104,9 +104,13 @@ export default {
   @apply dark:bg-slate-600;
 }
 
+.bottom-sheet :deep() .bottom-sheet__content {
+  @apply !select-auto;
+}
+
 @media screen and (max-width: 450px) {
   .bottom-sheet :deep() .bottom-sheet__pan {
-    display: block;
+    @apply block;
   }
 }
 </style>

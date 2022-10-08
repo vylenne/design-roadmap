@@ -10,19 +10,16 @@
         class="absolute top-5 lg:top-8 right-5 lg:right-10 z-10 cursor-pointer text-gray-800 dark:text-gray-200"
         @click.native="close"
       />
-      <h4 class="mb-5 lg:mr-0 text-xl lg:text-2xl font-semibold w-6/7">
+      <p class="mb-8 lg:mb-10 text-lg lg:text-2xl font-semibold w-5/6 lg:w-6/7">
         {{ $t('supportModal.title') }}
-      </h4>
-      <p class="mb-10 w-full lg:w-2/3 hidden lg:block">
-        {{ $t('supportModal.description') }}
       </p>
       <div
         class="grid grid-cols-1 lg:grid-cols-3 gap-x-7 text-sm lg:text-base mb-4 lg:mb-0 dark:text-gray-800"
       >
         <div
-          class="bg-blue-200 rounded-md p-2 lg:px-4 lg:py-8 flex flex-col justify-between text-center h-auto lg:h-72 mb-4 lg:mb-0"
+          class="bg-blue-200 rounded-md p-3 lg:px-4 lg:py-8 flex flex-col justify-between text-center h-auto lg:h-72 mb-4 lg:mb-0"
         >
-          <p class="w-3/4 mx-auto mb-2 lg:mb-0">
+          <p class="mx-auto mb-2 lg:mb-0">
             {{ $t('supportModal.ownerText') }}
           </p>
           <a
@@ -35,7 +32,7 @@
         <div
           class="bg-red-200 rounded-md p-2 lg:px-4 lg:py-8 flex flex-col justify-between text-center h-auto lg:h-72 mb-4 lg:mb-0"
         >
-          <p class="w-4/5 mx-auto mb-2 lg:mb-0">
+          <p class="mx-auto mb-2 lg:mb-0">
             {{ $t('supportModal.translatorText') }}
           </p>
           <div>
@@ -56,7 +53,7 @@
         <div
           class="bg-purple-200 rounded-md p-2 lg:px-4 lg:py-8 flex flex-col justify-between text-center h-auto lg:h-72"
         >
-          <p class="w-4/5 mx-auto mb-2 lg:mb-0">
+          <p class="mx-auto mb-2 lg:mb-0">
             {{ $t('supportModal.cryptoText') }}
           </p>
           <a

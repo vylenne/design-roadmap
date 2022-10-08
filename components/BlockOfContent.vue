@@ -24,7 +24,7 @@
           </div>
         </div>
         <div
-          class="w-full lg:w-3/4 flex flex-col lg:flex-row items-start overflow-auto lg:overflow-x-auto pt-0 pb-4 lg:py-5"
+          class="w-full lg:w-3/4 flex flex-col lg:flex-row items-center overflow-auto lg:overflow-x-auto pt-0 pb-4 lg:py-5"
         >
           <div
             v-for="(item, n) in theme.themes"

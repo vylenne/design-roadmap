@@ -1,0 +1,416 @@
+{
+  "language": "Українська",
+  "mainHeader": "Роадмапи для дизайнерів 2022",
+  "mainDescription": "Оберіть напрямок, у якому ви хочете розвиватися.",
+  "ways": {
+    "uiux": "UI/UX дизайн",
+    "mobile": "Мобільний дизайн",
+    "product": "Дизайн продукції",
+    "motion": "Моушен дизайн",
+    "graphic": "Графічний дизайн",
+    "3D": "3D дизайн",
+    "game": "Ігровий дизайн"
+  },
+  "soon": "Незабаром!",
+  "practice": "Все в твоїх руках. Практикуйся і буде тобі щастя! :)",
+  "uiux": {
+    "id": "001",
+    "title": "UI/UX дизайнер",
+    "description": "Це креативний спеціаліст, котрий проєктує інтерфейси для користувачів. UI та UX - два різних профілю дизайну, але частіше за все завдання з обох напрямків тісно пов'язані між собою, тому зазвичай їми займається одна людина.",
+    "categories": [
+      {
+        "title": "Теорія дизайну",
+        "content": [
+          {
+            "category": "Сітки",
+            "themes": [
+              "База про сітки",
+              "Модульні сітки",
+              "8pt Grid",
+              "Сітчасті стовпчики",
+              "Гнучкі і жорсткі сітки"
+            ]
+          },
+          {
+            "category": "Типографіка",
+            "themes": [
+              "Основна інформація про типографіку",
+              "Принципи типографіки",
+              "Шрифти",
+              "Сприйняття тексту"
+            ]
+          },
+          {
+            "category": "Колір",
+            "themes": [
+              "Теорія кольору",
+              "Психологія кольору"
+            ]
+          },
+          {
+            "category": "Додатково",
+            "themes": [
+              "Ілюстрації",
+              "Іконки",
+              "Типи зображень",
+              "Подання інформації"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Поглиблення в тему (в процесі)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "База про сітки",
+        "description": "Це скелет будь-якого проєкту, насамперед масштабного. Вони складаються з «невидимих» ліній, на яких розташовуються ваші конструктивні елементи дизайну. Це з'єднує їх в єдину систему і підтримує гармонію, в цілому, все за феншуєм.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
+            "title": "Все, що потрібно знати про сітки."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-common-ui-layouts-7073293697f8",
+            "title": "Адаптивні сітки та їх коректне використання."
+          },
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://youtu.be/n_V_aLqYPI0",
+            "title": "Сітки у веб-дизайні та інтерфейсі користувача."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design",
+            "title": "Як використовувати сітки у веб-дизайні."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://buninux.com/learn/ui-grid-best-practices",
+            "title": "UI сітки: найкращі приклади."
+          }
+        ]
+      },
+      {
+        "category": "Модульні сітки",
+        "description": "Базуючись на модулях, (прямокутниках із заданою висотою і шириною) будується сітка - вертикальні й горизонтальні лінії, що розділяють сторінку на прямокутники. Сітка визначає, як виглядатиме макет в цілому і де будуть розташовані окремі елементи: Заголовки, тексти, зображення.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
+            "title": "Модульні сітки у фігмі."
+          },
+          {
+            "id": 3,
+            "tag": "Книга",
+            "link": "https://www.amazon.com/Grid-Modular-Production-Newpapers-Magazines/dp/047128923X",
+            "title": "Модульна система для розробки і виробництва газет, журналів і книг."
+          }
+        ]
+      },
+      {
+        "category": "8pt Grid",
+        "description": "Існує системний підхід до вибору розміру елементів і простору - 8pt система, на якій базується Material Design. Загалом, необхідно встановити розмірні величини, кратні 8. Сітки, елементи, поля, презентації - все кратне  8.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179",
+            "title": "Повний путівник по сітці 8pt."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://spec.fm/specifics/8-pt-grid",
+            "title": "Специфіка сітки 8pt."
+          },
+          {
+            "id": 3,
+            "tag": "Книга",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "The Grid: Модульна система для розробки і виробництва газет, журналів і книг."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://www.marcandrew.me/how-to-create-stronger-layouts-with-the-8pt-grid/",
+            "title": "Як створити найсильніші макети з використанням сітки 8pt."
+          }
+        ]
+      },
+      {
+        "category": "Сітчасті стовпчики",
+        "description": "Стовпчики — це вертикальні ділянки сітки. Чим більше стовпчиків у ґратці, тим більша її гнучкість.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://talent-house.online/web-design-12-column-grid/",
+            "title": "12-стовпчикова система."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://visme.co/blog/layout-design/#:~:text=Column%20grids%20can%20have%20as,create%20a%20different%20visual%20layout.",
+            "title": "Швидкий лікбез для створення професійного дизайну."
+          }
+        ]
+      },
+      {
+        "category": "Гнучкі і жорсткі сітки",
+        "description": "Ой на горі дизайнер, який не чув про гнучкі сітки? Тепер дізнається.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://experience.sap.com/fiori-design-web/flexible-grid/",
+            "title": "\"М'які\" сітки."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://www.secretstache.com/blog/how-to-effectively-break-out-of-the-grid/",
+            "title": "Як ефективно \"зламати\" сітку."
+          }
+        ]
+      },
+      {
+        "category": "Основна інформація про типографіку",
+        "description": "Типографіка — це набір законів, правил і стандартів оформлення тексту, заснований на вивченні його сприйняття читачем. Знання і розуміння типографіки роблять текст інструментом побудови композиції, роблять його живим, надають характеру і здатності передавати ідею не тільки за допомогою змісту, але й графічно.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://medium.muz.li/why-ui-design-is-all-about-typography-370250d89ce8",
+            "title": "Чому дизайн інтерфейсу користувача - це все про типографіку."
+          },
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://www.youtube.com/watch?v=agbh1wbfJt8",
+            "title": "Повний і довгий посібник з типографіки."
+          },
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://www.youtube.com/watch?v=hnhEqyChb2Q",
+            "title": "Основи типографії - 8 правил для покращення ваших навичок."
+          }
+        ]
+      },
+      {
+        "category": "Принципи типографіки",
+        "description": "Мистецтво типографії, безсумнівно, має бути одним з базових навичок для дизайнера. Адже це може покращити дизайн або зруйнувати його.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "Лонгід про самі знаєте що."
+          },
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://www.youtube.com/watch?v=QrNi9FmdlxY",
+            "title": "10 правил типографіки."
+          },
+          {
+            "id": 3,
+            "tag": "Книга",
+            "link": "https://www.amazon.co.uk/dp/1631596470?psc=1&th=1&linkCode=gs2&tag=vhpoet-21",
+            "title": "Основи типографії: 100 принципів дизайну для роботи зі шрифтом."
+          }
+        ]
+      },
+      {
+        "category": "Шрифти",
+        "description": "Зовнішній вигляд тексту може значно змінити сприйняття інформації.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "title": "Гайд щодо вибору шрифту."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxplanet.org/7-things-to-remember-when-selecting-fonts-for-your-design-ec1e592266c5",
+            "title": "Які речі варто пам'ятати під час вибору шрифту."
+          },
+          {
+            "id": 3,
+            "tag": "Книга",
+            "link": "https://www.readthistwice.com/lists/best-typography-books",
+            "title": "Найкращі книжки стосовно типографіки."
+          }
+        ]
+      },
+      {
+        "category": "Сприйняття тексту",
+        "description": "Не змушуй мене сильно розмірковувати над текстом, будь ласка.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://thecodest.co/blog/how-typography-affects-the-users-perception-of-the-webpage",
+            "title": "Як типографіка впливає на сприйняття користувачем веб-cторінки."
+          }
+        ]
+      },
+      {
+        "category": "Теорія кольору",
+        "description": "Кольори присутні у всьому, вони існують у багатьох відтінках, градієнтах і комбінаціях. Для дизайнерів теорія кольору є керівним принципом у визначенні сприйняття і, зокрема, застосування кольорів на практиці.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://webflow.com/blog/color-theory",
+            "title": "Теорія кольору для дизайнерів: Довідник для початківців."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://www.toptal.com/designers/visual/color-theory-for-designers",
+            "title": "Теорія кольору та її принципи."
+          },
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://www.youtube.com/watch?v=KMS3VwGh3HY",
+            "title": "Як обрати кольори (простий процес в 3 кроки)."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxplanet.org/how-to-pick-a-colour-palette-in-3-easy-steps-c6383144e88d",
+            "title": "Вибір кольорової палітри."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://bootcamp.uxdesign.cc/the-60-30-10-color-rule-for-ui-design-32695d04a7c2",
+            "title": "Колірне правило 60:30:10 для дизайну інтерфейсу користувача."
+          }
+        ]
+      },
+      {
+        "category": "Психологія кольору",
+        "description": "А ви не помічали, що ми надаємо перевагу якомусь кольору?",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43",
+            "title": "Психологія кольору: Блискуча допомога в дизайні UX."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
+            "title": "Чи є дизайн продукту саме тим, яким чином люди взаємодіють з ним?"
+          }
+        ]
+      },
+      {
+        "category": "Ілюстрації",
+        "description": "Пам'ятаєте, як вам в дитинстві було цікаво дивитися фотографії в книгах і фантазувати? Приблизно такий самий принцип і закладений у веб  - привернути увагу.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://medium.com/litslink/how-illustrations-boost-the-ux-7a961c4ba897",
+            "title": "Як ілюстрації покращують UX."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://blog.prototypr.io/8-dos-and-don-ts-while-applying-illustrations-in-your-design-546476031c7e",
+            "title": "8 \"що робити і чого не робити\" за використання ілюстрацій в дизайні."
+          }
+        ]
+      },
+      {
+        "category": "Іконки",
+        "description": "Іконки маленькі, але це не означає, що вони не важливі. Завдяки їх правильному використанню, користувач може відразу зрозуміти про що йде мова і що саме цим хотів передати дизайнер.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://blog.prototypr.io/how-to-design-better-icons-869d067fddbf",
+            "title": "Як зробити найкращі іконки."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://minoraxis.medium.com/icon-grids-keylines-demystified-5a228fe08cfd",
+            "title": "Анатомія і сітка іконок."
+          }
+        ]
+      },
+      {
+        "category": "Типи зображень",
+        "description": "Просто додаткова інформація для дизайнерів, дуже необхідна і корисна.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "Відео",
+            "link": "https://www.youtube.com/watch?v=RZD4kfK3I6M",
+            "title": "Типи файлів зображень (JPG, PNG, SVG, GIF)."
+          }
+        ]
+      },
+      {
+        "category": "Подання інформації",
+        "description": "Будь-яку інформацію потрібно вміти презентувати. Навіть найблискучіша ідея не буде оцінена вашим керівництвом, якщо ви прошепочете її собі під носа або застрягнете в дрібних деталях.",
+        "links": [
+          {
+            "id": 3,
+            "tag": "Книга",
+            "link": "https://www.dexigner.com/directory/detail/24364",
+            "title": "Роздуми про інформаційний дизайн."
+          },
+          {
+            "id": 1,
+            "tag": "Стаття",
+            "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
+            "title": "Як спростити свій дизайн."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "resources": "Якщо у вас є матеріали, якими ви хотіли б поділитися, ви можете написати нам у",
+    "telegram": "телеграм",
+    "orVia": " або на ",
+    "email": "пошту",
+    "translation": "Переклад — ",
+    "design": "Дизайн — ",
+    "designAndDevelopment": "Дизайн і розробка -",
+    "alex": "Алекс",
+    "pavel": "Павел",
+    "vilena": "Вилена"
+  },
+  "support": "Підтримати проєкт",
+  "supportModal": {
+    "title": "Якщо вам подобається роадмап для дизайнерів і ви б хотіли щоб проєкт розвивався, то ви знаєте що робити!",
+    "ownerText": "Засновниці проєкту (RUB)",
+    "translatorText": "Перекладачці (UAH, всі валюти)",
+    "cryptoText": "Крипто гаманець (USTD)",
+    "toCard": "На картку",
+    "toPaypal": "На PayPal",
+    "toCryptoWallet": "На гаманець",
+    "thanks": "Кошти будуть використані для оплати хостинг-домену, а також для тих, хто працює над проєктом на постійній основі. Дякуємо!"
+  }
+}

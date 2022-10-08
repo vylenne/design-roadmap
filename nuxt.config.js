@@ -30,23 +30,11 @@ export default {
   ],
   build: { vendor: ['vue-i18n'] },
   components: true,
-  buildModules: [
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
-  ],
-  googleAnalytics: {
-    id: 'G-FNX1Z1GSEE',
-    autoTracking: {
-      screenview: true,
-    },
-  },
-  modules: [
-    '@nuxtjs/i18n',
-  ],
+  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/i18n'],
   i18n: {
     strategy: 'no_prefix',
-    locales: ['ru', 'en'],
+    locales: ['uk', 'ru', 'en', 'fr'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
       useCookie: true,
@@ -56,9 +44,11 @@ export default {
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
+        uk: require('./locales/uk.json'),
         ru: require('./locales/ru.json'),
         en: require('./locales/en.json'),
-      }
-    }
-  }
+        fr: require('./locales/fr.json'),
+      },
+    },
+  },
 }

@@ -2,12 +2,20 @@ export const state = () => ({
   dark: false,
   locales: [
     {
+      code: 'uk',
+      name: 'Українська',
+    },
+    {
       code: 'ru',
       name: 'Русский',
     },
     {
       code: 'en',
       name: 'English',
+    },
+    {
+      code: 'fr',
+      name: 'Français',
     },
   ],
   locale: 'en',

@@ -1,6 +1,6 @@
 <template>
   <div class="pt-6">
-    <div class="container mx-auto min-h-full h-auto flex flex-col">
+    <div class="min-h-full h-auto flex flex-col">
       <h1 class="text-2xl lg:text-4xl mx-4 lg:mx-0 font-bold text-center dark:text-gray-200">
         {{ $t('mainHeader') }}
       </h1>
@@ -10,18 +10,16 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8 mx-4 xl:m-0">
         <card-component v-for="direction in directions" :key="direction.name" :direction="direction" />
       </div>
-      <Footer />
     </div>
   </div>
 </template>
 
 <script>
-import Footer from '@/components/FooterComponent.vue'
 import CardComponent from '@/components/CardComponent.vue'
 
 export default {
   name: 'MainPage',
-  components: { Footer, CardComponent },
+  components: { CardComponent },
   computed: {
     directions() {
       return [

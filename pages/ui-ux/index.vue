@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-6 dark:bg-gray-800 dark:text-gray-200">
+  <div class="pt-6">
     <div class="container mx-auto min-h-full h-auto flex flex-col">
       <h1 class="text-4xl font-semibold px-4 lg:p-0 dark:text-gray-300">
         {{ $t('uiux.title') }}
@@ -19,7 +19,6 @@
       <h2 class="text-lg lg:text-xl font-medium my-4 px-4 lg:p-0">
         {{ $t('practice') }}
       </h2>
-      <Footer />
       <Popup :id="$t('uiux.id')" ref="wrapper" :resource="resource" />
     </div>
   </div>
@@ -27,12 +26,11 @@
 
 <script>
 import BlockOfContent from '@/components/BlockOfContent.vue'
-import Footer from '@/components/FooterComponent.vue'
 import Popup from '@/components/PopupComponent.vue'
 
 export default {
   name: 'UiUxDesign',
-  components: { BlockOfContent, Popup, Footer },
+  components: { BlockOfContent, Popup },
   data() {
     return {
       resource: null,
