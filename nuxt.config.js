@@ -25,6 +25,7 @@ export default {
   },
   plugins: [
     '~/plugins/i18n.js',
+    '~/plugins/vue-gtag',
     { src: '~/plugins/vue-bottom-sheet.js', ssr: false },
     '~/plugins/v-click-outside.js',
   ],
