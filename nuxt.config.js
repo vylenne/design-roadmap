@@ -25,14 +25,14 @@ export default {
   },
   plugins: [
     '~/plugins/i18n.js',
-    '~/plugins/vue-gtag',
+    '~/plugins/vue-gtag.js',
     { src: '~/plugins/vue-bottom-sheet.js', ssr: false },
     '~/plugins/v-click-outside.js',
   ],
   build: { vendor: ['vue-i18n'] },
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
-  modules: ['@nuxtjs/i18n', '@nuxtjs/google-analytics'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/google-analytics', '@nuxtjs/google-gtag'],
   i18n: {
     strategy: 'no_prefix',
     locales: ['uk', 'ru', 'en', 'fr'],
@@ -59,5 +59,8 @@ export default {
     autoTracking: {
       screenview: true
     }
+  },
+  'google-gtag': {
+    id: 'G-X0B97WG7HM'
   }
 }
