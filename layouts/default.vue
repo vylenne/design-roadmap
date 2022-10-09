@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="h-full" :class="dark ? 'dark' : 'light'">
-    <div class="dark:bg-gray-800 dark:text-gray-200 pt-5 h-full">
+  <div id="app" :class="dark ? 'dark' : 'light'">
+    <div class="dark:bg-gray-800 dark:text-gray-200">
       <div class="content">
         <Header />
         <Nuxt />
@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .content {
-  @apply container mx-auto min-h-full grid dark:bg-gray-800 dark:text-gray-200;
+  @apply container mx-auto min-h-screen pt-5 grid dark:bg-gray-800 dark:text-gray-200;
   grid-template-rows: auto 1fr auto;
 }
 </style>
