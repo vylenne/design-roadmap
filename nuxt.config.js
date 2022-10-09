@@ -31,7 +31,7 @@ export default {
   build: { vendor: ['vue-i18n'] },
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
-  modules: ['@nuxtjs/i18n'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/google-analytics'],
   i18n: {
     strategy: 'no_prefix',
     locales: ['uk', 'ru', 'en', 'fr'],
@@ -51,4 +51,12 @@ export default {
       },
     },
   },
+  googleAnalytics: {
+    asyncID: async () => { 
+      return 'UA-237134601-1' 
+    },
+    autoTracking: {
+      screenview: true
+    }
+  }
 }
