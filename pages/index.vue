@@ -33,7 +33,7 @@ export default {
           link: '/mobile',
           color: 'bg-red-100 hover:bg-red-200',
           title: this.$i18n.t('ways.mobile'),
-          blocked: true,
+          blocked: false,
         },
         {
           link: '/product',

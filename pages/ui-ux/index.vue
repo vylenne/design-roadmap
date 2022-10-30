@@ -44,6 +44,6 @@ export default {
       this.resource = resource[0] ?? {}
       this.$refs.wrapper.$refs.popup.open()
     },
-  },
+  }
 }
 </script>
