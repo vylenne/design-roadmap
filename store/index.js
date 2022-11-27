@@ -17,6 +17,10 @@ export const state = () => ({
       code: 'fr',
       name: 'Français',
     },
+    {
+      code: 'ko',
+      name: '한국어',
+    },
   ],
   locale: 'en',
 })
