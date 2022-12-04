@@ -30,11 +30,10 @@ export default {
   modules: ['@nuxtjs/i18n', '@nuxtjs/google-analytics', '@nuxtjs/google-gtag'],
   i18n: {
     strategy: 'no_prefix',
-    locales: ['uk', 'ru', 'en', 'fr'],
+    locales: ['uk', 'ru', 'en', 'fr', 'ko'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'lang',
       redirectOn: 'root',
     },
     vueI18n: {

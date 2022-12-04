@@ -558,9 +558,9 @@
   },
   "footer": {
     "resources": "공유하고 싶은 자료가 있다면 텔레그램이나 이메일로 문자를 보낼 수 있습니다.",
-    "telegram": "Telegram",
-    "orVia": " или на ",
-    "email": "почту",
+    "telegram": "텔레그램",
+    "orVia": "",
+    "email": "이메일",
     "translation": "번역 - ",
     "design": "디자인 - ",
     "designAndDevelopment": "설계 및 개발 - ",
