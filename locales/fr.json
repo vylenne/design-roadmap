@@ -11,7 +11,7 @@
     "3D": "Design 3D",
     "game": "Design de jeux"
   },
-  "soon": "Vite",
+  "soon": "Vite!",
   "practice": "Le pouvoir est entre vos mains. Pratiquez et soyez heureux! :)",
   "uiux": {
     "id": "001",
@@ -385,6 +385,172 @@
             "tag": "Article",
             "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
             "title": "Comment simplifier votre design."
+          }
+        ]
+      }
+    ]
+  },
+  "mobile": {
+    "id": "002",
+    "title": "Concepteur mobile",
+    "description": "Un spécialiste qui conçoit des interfaces intuitivement intelligibles, en tenant compte des particularités des appareils mobiles. Ils peuvent également développer une version mobile du produit avec quelques fonctionnalités supplémentaires. Habituellement, ces spécialistes ont déjà des connaissances en UI/UX, donc, si vous voulez étudier profondement les bases, nous vous invitons de vous familiariser avec le matériel sur la page UI/UX.",
+    "categories": [
+      {
+        "title": "Principes de base du design",
+        "content": [
+          {
+            "category": "Notions de base de l’UI/UX",
+            "themes": [
+              "Grilles",
+              "Typographique",
+              "Les couleurs"
+            ]
+          },
+          {
+            "category": "Caractéristiques du design mobile",
+            "themes": [
+              "Les écrans",
+              "Spécifique de l'UX au dispositif mobile"
+            ]
+          },
+          {
+            "category": "Directives",
+            "themes": [
+              "Interface Humaine",
+              "Material Design de Google"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Élargissement du sujet (en cours)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "Grilles",
+        "description": "Comme pour l’UI/UX, les grilles sont parmi les outils principaux de la conception. Ils aident à atteindre la cohérence des éléments, établir les liens entre eux et définir le système visuel et aider les utilisateurs avec l’auto-navigation.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://infinum.com/blog/mobile-layouts-and-grids/",
+            "title": "Grilles et appareils de design mobile."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/digging-deep-in-layout-grids-in-mobile-app-design-ef07ace5b291",
+            "title": "Étude détaillée de la disposition des grilles dans la conception des applications mobiles."
+          }
+        ]
+      },
+      {
+        "category": "Typographique",
+        "description": "Aucun écran ne peut pas se débarrasser du texte complètement. De même, si des éléments de texte sont affichés aléatoirement dans l’interface, il est impossible d’obtenir une interface efficace et un UX positif.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=jtjP049GOyk",
+            "title": "Créez une échelle d’impression efficace en développant une interface utilisateur mobile!"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f",
+            "title": "Guide de mise au point de la meilleure typographie pour les applications mobiles."
+          }
+        ]
+      },
+      {
+        "category": "Les couleurs",
+        "description": "ЦLe schéma de couleur est le deuxième facteur à concilier pour l’UX efficace et pour la fonction de votre application mobile. Par conséquent, tous les développeurs essaient de choisir un tel design et des couleurs qui pourraient améliorer la conversion et aider à populariser le mobile.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://dribbble.com/resources/choose-colors-mobile-app-design",
+            "title": "Choix des couleurs pour la conception d'applications mobiles (5 principes)."
+          },
+           {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://parel.co/key-principles-to-choose-the-right-colour-scheme-for-your-mobile-app-design",
+            "title": "Principes fondamentaux pour choisir la bonne couleur."
+          }
+        ]
+      },
+      {
+        "category": "Les écrans",
+        "description": "99% de l’interface = pixels de l’écran. 1% est conçu pour les interfaces vocales et peut-être dans l'avenir proche pour les connexions neuronales.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://pageflows.com/",
+            "title": "Vaste collection de scénarios d'intégration des grandes marques."
+          },
+          {
+            "id": 2,
+            "tag": "Vidéo",
+            "link": "https://www.youtube.com/watch?v=viNNYye4qG0",
+            "title": "Conception de base de l'IU pour les applications mobiles."
+          }
+        ]
+      },
+      {
+        "category": "Spécifique de l'UX au dispositif mobile",
+        "description": "L'Application aide principalement aux utilisateurs de smartphone à garder leurs mains sur le pouls: en communication avec des amis, aux études, en faisant du sport, etc. et même en déplacement spatial. Les utilisateurs aiment leurs téléphones mobiles et apprécient leur volonté d’aider 24/7.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.smashingmagazine.com/2021/10/eye-tracking-mobile-ux-research/",
+            "title": "Surveillance visuelle des appareils mobiles lors des recherches d'IU."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.smashingmagazine.com/2016/10/in-app-gestures-and-mobile-app-user-experience/",
+            "title": "Mouvements dans les applications et l’UX mobile."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.uxpin.com/studio/blog/top-tips-to-design-ux-text-for-mobile-apps/",
+            "title": "Conseils pour écrire le meilleur texte dans les applications mobiles."
+          }
+        ]
+      },
+      {
+        "category": "Interface Humaine",
+        "description": "Ce document sert à créer les interfaces d’interaction les plus intuitives, faciles à étudier et logiques avec les utilisateurs. Il normalise généralement l’apparence des applications, ainsi que la nécessité d’utiliser la technologie pour rendre l’application disponible dans différentes langues et pour les personnes handicapées ainsi.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/",
+            "title": "Directives relatives à l'interface humaine – De quoi s'agit-il?"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/apples-human-interface-guidelines-overview-5d42c2088efc",
+            "title": "Les recommandations d'Apple sur l'interface humaine en un coup d'oeil."
+          }
+        ]
+      },
+      {
+        "category": "Material Design de Google",
+        "description": "Material Design est une interface de système d’exploitation Android conçue pour unifier tous les produits Google. L’idée est d’utiliser des formes simples et d’interagir entre les différentes parties de l’écran.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://m3.material.io/",
+            "title": "Le design du matériel, la documentation la plus complète."
           }
         ]
       }

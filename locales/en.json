@@ -390,6 +390,172 @@
       }
     ]
   },
+  "mobile": {
+    "id": "002",
+    "title": "Mobile Designer",
+    "description": "A specialist who designs intuitively intelligible interfaces, taking into account the peculiarities of mobile devices. They can also develop a mobile version of the product with some additional features. Commonly, such specialists already have some knowledge in UI/UX, therefore, if you want to study the basics, we recommend to familiarize with the materials on the UI/UX page.",
+    "categories": [
+      {
+        "title": "Fundamentals of designing",
+        "content": [
+          {
+            "category": "Basics of UI/UX",
+            "themes": [
+              "Grids",
+              "Typography",
+              "Color"
+            ]
+          },
+          {
+            "category": "Features of mobile design",
+            "themes": [
+              "Screens",
+              "UX Mobile Specific"
+            ]
+          },
+          {
+            "category": "Guidelines",
+            "themes": [
+              "Human Interface",
+              "Google Material Design"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Expanding the topic (in progress)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "Grids",
+        "description": "As with UI/UX, grids among the key design tools. They help to achieve coherence of elements, establish links between them and set visual system and help users with self navigation.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://infinum.com/blog/mobile-layouts-and-grids/",
+            "title": "Grids and layouts for mobile design."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/digging-deep-in-layout-grids-in-mobile-app-design-ef07ace5b291",
+            "title": "Detailed study of grid layouts in the design of mobile applications."
+          }
+        ]
+      },
+      {
+        "category": "Typography",
+        "description": "No screen can get rid of the text completely. Similarly, if text elements are displayed randomly in the interface, it is impossible to achieve an efficient interface and a positive UX.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=jtjP049GOyk",
+            "title": "Create an efficient print scale as you develop a mobile user interface!"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f",
+            "title": "A guide for developing the best typography for mobile apps."
+          }
+        ]
+      },
+      {
+        "category": "Colors",
+        "description": "Color scheme is the second factor to concider for the efficient UX and for the function of your mobile app. Therefore, all developers try to choose such a design and colors that could enhance conversion and help in popularizing the mobile application.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://dribbble.com/resources/choose-colors-mobile-app-design",
+            "title": "How to choose colors for mobile application design (5 principles)."
+          },
+           {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://parel.co/key-principles-to-choose-the-right-colour-scheme-for-your-mobile-app-design",
+            "title": "Fundamental principles for choosing the right color."
+          }
+        ]
+      },
+      {
+        "category": "Screens",
+        "description": "99% of the interface = pixels of the screen. 1% Is designed for voice interfaces and possibly in the near future for neural connections.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://pageflows.com/",
+            "title": "Huge collection of onboarding-scripts from TOP brands."
+          },
+          {
+            "id": 2,
+            "tag": "Video",
+            "link": "https://www.youtube.com/watch?v=viNNYye4qG0",
+            "title": "Core user interface design for mobile applications."
+          }
+        ]
+      },
+      {
+        "category": "UX Mobile Specific",
+        "description": "The app primarily helps the smartphone holder to keep his hand on the pulse: in communication with friends, studying, exercising, etc. and even in spatial displacement. Users love their mobile phones and appreciate their willingness to help 24/7.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.smashingmagazine.com/2021/10/eye-tracking-mobile-ux-research/",
+            "title": "Eye tracking of mobile devices in user interface researches."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.smashingmagazine.com/2016/10/in-app-gestures-and-mobile-app-user-experience/",
+            "title": "Movements in apps and mobile UX."
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://www.uxpin.com/studio/blog/top-tips-to-design-ux-text-for-mobile-apps/",
+            "title": "Tips for writing the best text within mobile applications."
+          }
+        ]
+      },
+      {
+        "category": "Human Interface",
+        "description": "This document serves to create the most intuitive, easy to study and logical interfaces of interaction with users. It generally standardizes the appearance of applications, as well as the need to use technology to make the application available in different languages and for people with disabilities as well.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/",
+            "title": "Human Interface Guidelines – What's that?"
+          },
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://uxplanet.org/apples-human-interface-guidelines-overview-5d42c2088efc",
+            "title": "Apple's recommendations for the human interface at a glance."
+          }
+        ]
+      },
+      {
+        "category": "Google Material Design",
+        "description": "Material Design is an Android operating system application interface designed to unify all Google products. The idea is to use simple forms and interact between individual parts of the screen.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "Article",
+            "link": "https://m3.material.io/",
+            "title": "Material design, the most extensive documentation."
+          }
+        ]
+      }
+    ]
+  },
   "footer": {
     "resources": "If you have any materials you would like to share, you can text us at ",
     "telegram": "Telegram",
@@ -406,7 +572,7 @@
   "supportModal": {
     "title": "If you like a designers' roadmap and you would like it to develop, then you know what to do!",
     "ownerText": "To Project creator (RUB)",
-    "translatorText": "To Tanslator (All currencies)",
+    "translatorText": "To Translator (All currencies)",
     "cryptoText": "Сrypto wallet (USDT)",
     "toCard": "By card",
     "toPaypal": "By PayPal",

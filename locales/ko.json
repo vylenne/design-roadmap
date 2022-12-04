@@ -1,0 +1,582 @@
+{
+  "language": "한국어",
+  "mainHeader": "디자이너의 로드맵 2022",
+  "mainDescription": "자세히 알고 싶은 필드를 선택하십시오.",
+  "ways": {
+    "uiux": "UI/UX 디자인",
+    "mobile": "모바일 디자인",
+    "product": "제품디자인",
+    "motion": "모션 디자인",
+    "graphic": "그래픽 디자인",
+    "3D": "3D 디자인",
+    "game": "게임 디자인"
+  },
+  "soon": "개봉박두",
+  "practice": "당신은 할 수 있어요. 연습하고 행복하세요! 화이팅~ :)",
+  "uiux": {
+    "id": "001",
+    "title": "UI/UX 디자이너",
+    "description": "사용자 인터페이스를 설계하는 크리에이티브 전문가입니다. UI와 UX는 서로 다른 두 가지 설계 프로파일이지만, 일반적으로 양쪽 방향의 대부분의 작업은 밀접하게 연관되어 있으므로 일반적으로 한 사람이 관리합니다.",
+    "categories": [
+      {
+        "title": "설계의 이론",
+        "content": [
+          {
+            "category": "그리드",
+            "themes": [
+              "그리드의 기본 사항",
+              "모듈식 그리드",
+              "8pt 그리드",
+              "그리드의 기둥",
+              "유연하고 견고한 그리드"
+            ]
+          },
+          {
+            "category": "활판술",
+            "themes": [
+              "활판술의 기본 사항",
+              "활판술의 원리",
+              "글꼴",
+              "본문에 대한 지각"
+            ]
+          },
+          {
+            "category": "색깔",
+            "themes": [
+              "색깔의 이론",
+              "색깔의 심리"
+            ]
+          },
+          {
+            "category": "추가의",
+            "themes": [
+              "삽화",
+              "아이콘",
+              "이미지 유형",
+              "정보 프리젠테이션"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "주제를 확장하는 중입니다 (진행 중)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "그리드의 기본 사항",
+        "description": "이것은 어떤 프로젝트, 특히 큰 프로젝트의 프레임워크입니다. 설계 요소를 고정하는 데 도움이 되는 \"보이지 않는\" 선으로 구성됩니다. 그들을 공통의 체계로 연결하고 조화를 유지하며 풍수지리적인 시각을 만들어냅니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321",
+            "title": "그리드에 대해 알아야 할 모든 것이다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxdesign.cc/responsive-grids-and-how-to-actually-use-them-common-ui-layouts-7073293697f8",
+            "title": "적응형 그리드 및 올바르게 사용하는 방법을 설명하기."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://youtu.be/n_V_aLqYPI0",
+            "title": "웹 디자인 및 UI 디자인의 그리드."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.flux-academy.com/blog/how-to-use-a-grid-in-web-design",
+            "title": "웹 디자인에서 그리드를 사용하는 방법."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://buninux.com/learn/ui-grid-best-practices",
+            "title": "UI 그리드의 좋은 모범."
+          }
+        ]
+      },
+      {
+        "category": "모듈식 그리드",
+        "description": "그리드는 페이지를 직사각형으로 분할하는 수직선과 수평선으로 구성된 모듈 기반(지정된 높이와 너비를 가진 직사각형)으로 작성됩니다. 그리드는 전체 레이아웃의 모양과 헤더, 텍스트, 이미지 등의 개별 요소를 배치할 위치를 결정합니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://help.figma.com/hc/en-us/articles/360040450513",
+            "title": "Figma의 모듈식 그리드."
+          },
+          {
+            "id": 3,
+            "tag": "서적/출처",
+            "link": "https://www.amazon.com/Grid-Modular-Production-Newpapers-Magazines/dp/047128923X",
+            "title": "신문, 잡지 및 서적의 개발 및 생산을 위한 모듈식 시스템."
+          }
+        ]
+      },
+      {
+        "category": "8pt 그리드",
+        "description": "요소와 공간의 크기를 선택하기 위한 시스템 접근법이 있는데, 이를 재료 설계의 기본인 8pt 시스템이라고 합니다. 일반적으로 크기를 8의 배수로 설정해야 합니다. 그리드, 요소, 필드, 들여쓰기 - 모두 8의 배수여야 합니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179",
+            "title": "자세한 8pt 그리드 가이드."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://spec.fm/specifics/8-pt-grid",
+            "title": "8pt 그리드 사양입니다."
+          },
+          {
+            "id": 3,
+            "tag": "서적/출처",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "그리드: 신문, 잡지 및 서적을 개발 및 제조하기 위한 모듈식 시스템."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.marcandrew.me/how-to-create-stronger-layouts-with-the-8pt-grid/",
+            "title": "8pt 그리드를 사용하여 가장 강력한 레이아웃을 만드는 방법"
+          }
+        ]
+      },
+      {
+        "category": "그리드의 기둥",
+        "description": "기둥은 그리드의 수직 단면입니다. 그리드에 기둥이 많을수록 유연성이 높아집니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://talent-house.online/web-design-12-column-grid/",
+            "title": "12 - 기둥 시스템"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://visme.co/blog/layout-design/#:~:text=Column%20grids%20can%20have%20as,create%20a%20different%20visual%20layout.",
+            "title": "전문적인 디자인을 위해 기둥을 빠르게 터치합니다."
+          }
+        ]
+      },
+      {
+        "category": "유연하고 견고한 그리드",
+        "description": "유연한 그리드에 대해 들어보지 못한 디자이너가 있을까요? 이제 그들이 알게 될 거예요.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://experience.sap.com/fiori-design-web/flexible-grid/",
+            "title": "\"부드러운\" 그리드."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.secretstache.com/blog/how-to-effectively-break-out-of-the-grid/",
+            "title": "그리드를 실제로 \"파악\"하는 방법."
+          }
+        ]
+      },
+      {
+        "category": "활판술의 기본 사항",
+        "description": "활판술은 활판술에 대한 독자의 인식에 기초한 법률, 규칙 및 텍스트 표준의 집합입니다. 활판술에 대한 지식과 이해는 텍스트를 구성 구성의 도구로 만들고, 그것을 살아나게 하며, 콘텐츠의 도움뿐만 아니라 그래픽으로도 아이디어를 전달할 수 있는 능력을 제공하는 데 도움이 됩니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://medium.muz.li/why-ui-design-is-all-about-typography-370250d89ce8",
+            "title": "왜 UI의 개념은 모두 활판술에 관한 것입니다."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=agbh1wbfJt8",
+            "title": "활판술에 대한 포괄적이고 긴 형식의 가이드입니다."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=hnhEqyChb2Q",
+            "title": "활판술의 본질 - 당신의 기술을 향상시키기 위한 8가지 규칙입니다."
+          }
+        ]
+      },
+      {
+        "category": "활판술의 원리",
+        "description": "활판술 기술은 의심할 여지 없이 디자이너의 가장 기본적인 기술 중 하나임에 틀림없습니다. 결국, 이것이 디자인을 더 좋게 만들거나 완전히 망칠 수 있는 것입니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://typographyprinciples.obys.agency/",
+            "title": "이 긴 여정이 무엇인지 이미 알고 있습니다."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=QrNi9FmdlxY",
+            "title": "10가지 활판술 규칙이 있습니다."
+          },
+          {
+            "id": 3,
+            "tag": "서적/출처",
+            "link": "https://www.amazon.co.uk/dp/1631596470?psc=1&th=1&linkCode=gs2&tag=vhpoet-21",
+            "title": "활판술의 기본: 글꼴 작업을 위한 100가지 디자인 원칙입니다."
+          }
+        ]
+      },
+      {
+        "category": "글꼴",
+        "description": "텍스트의 모양은 정보에 대한 인식에 상당한 차이를 만들 수 있습니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxplanet.org/the-ultimate-guide-to-choosing-fonts-cf98b1d3e5b8",
+            "title": "글꼴을 선택하는 방법: 가이드"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxplanet.org/7-things-to-remember-when-selecting-fonts-for-your-design-ec1e592266c5",
+            "title": "글꼴을 선택할 때 기억할 가치가 있는 것은 무엇입니까?"
+          },
+          {
+            "id": 3,
+            "tag": "서적/출처",
+            "link": "https://www.readthistwice.com/lists/best-typography-books",
+            "title": "활판술에 관한 최고의 책입니다."
+          }
+        ]
+      },
+      {
+        "category": "본문에 대한 지각",
+        "description": "제게 많은 생각을 강요하지 마세요.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://thecodest.co/blog/how-typography-affects-the-users-perception-of-the-webpage",
+            "title": "활판술이 웹 페이지에 대한 사용자의 인식에 영향을 미치는 방식입니다."
+          }
+        ]
+      },
+      {
+        "category": "색깔의 이론",
+        "description": "색상은 다양한 색조, 그라데이션 및 조합으로 모든 것에 존재합니다. 디자이너에게 색상 이론은 지각과 특히 색상의 사용을 결정하는 데 있어 지침 원칙입니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://webflow.com/blog/color-theory",
+            "title": "디자이너들을 위한 색상 이론: 신입생들을 위한 가이드입니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.toptal.com/designers/visual/color-theory-for-designers",
+            "title": "색 이론과 그것의 원리입니다."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=KMS3VwGh3HY",
+            "title": "색상 선택 방법(단순한 3비트 프로세스)입니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxplanet.org/how-to-pick-a-colour-palette-in-3-easy-steps-c6383144e88d",
+            "title": "색상 팔레트를 선택하기"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://bootcamp.uxdesign.cc/the-60-30-10-color-rule-for-ui-design-32695d04a7c2",
+            "title": "60:30:10 UI 디자인을 위한 색상 규칙입니다"
+          }
+        ]
+      },
+      {
+        "category": "색깔의 심리",
+        "description": "사람들이 색에 민감하다는 것을 눈치채셨나요?",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43",
+            "title": "색깔의 심리: UX 디자인에 탁월한 도움을 줍니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
+            "title": "제품 디자인은 사람들이 제품과 상호 작용하는 방식만으로 정의됩니까?"
+          }
+        ]
+      },
+      {
+        "category": "삽화",
+        "description": "여러분은 책 속의 그림들을 훑어보고 공상하는 것이 얼마나 재미없었는지 기억하나요? 따라서 동일한 원칙이 웹에 내장되어 있습니다. 관심을 끌기 위해서입니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://medium.com/litslink/how-illustrations-boost-the-ux-7a961c4ba897",
+            "title": "그림이 UX를 업그레이드하는 방식입니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://blog.prototypr.io/8-dos-and-don-ts-while-applying-illustrations-in-your-design-546476031c7e",
+            "title": "8 디자인에 그림을 사용하는 동안 \"해야 할 것과 하지 말아야 할 것\"을 선택합니다."
+          }
+        ]
+      },
+      {
+        "category": "아이콘",
+        "description": "아이콘은 작지만 중요하지 않다는 뜻은 아닙니다. 정확한 사용으로 인해 사용자는 정확한 내용과 디자이너가 전달하고자 하는 의미를 즉시 파악할 수 있습니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://blog.prototypr.io/how-to-design-better-icons-869d067fddbf",
+            "title": "최상의 아이콘을 디자인하는 방법입니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://minoraxis.medium.com/icon-grids-keylines-demystified-5a228fe08cfd",
+            "title": "아이콘의 그리드 및 해부도입니다."
+          }
+        ]
+      },
+      {
+        "category": "이미지 유형",
+        "description": "개발자를 위한 추가 정보로 매우 필요하고 도움이 됩니다.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=RZD4kfK3I6M",
+            "title": "이미지 파일 형식(JPG, PNG, SVG, GIF)."
+          }
+        ]
+      },
+      {
+        "category": "정보 프리젠테이션",
+        "description": "어떤 정보라도 제시할 수 있어야 합니다. 아무리 훌륭한 아이디어라도 당신이 숨죽이고 투덜거리거나 사소한 일에 말려들면 당신의 리더십은 인정받지 못할 것입니다.",
+        "links": [
+          {
+            "id": 3,
+            "tag": "서적/출처",
+            "link": "https://www.dexigner.com/directory/detail/24364",
+            "title": "정보 디자인에 대한 생각입니다"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxmag.medium.com/how-to-simplify-your-design-80d2a4ebf057",
+            "title": "설계를 단순화하는 방법입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "mobile": {
+    "id": "002",
+    "title": "모바일 디자이너",
+    "description": "모바일 장치의 특성을 고려하여 직관적으로 이해할 수 있는 인터페이스를 설계하는 전문가입니다. 또한 몇 가지 추가 기능이 있는 제품의 모바일 버전을 개발할 수도 있습니다. 일반적으로 이러한 전문가들은 UI/UX에 대해 이미 어느 정도의 지식을 가지고 있기 때문에 기본적인 공부를 하고 싶다면 UI/UX 페이지의 자료를 숙지하는 것이 좋습니다.",
+    "categories": [
+      {
+        "title": "디자인의 기본 사항",
+        "content": [
+          {
+            "category": "UI/UX의 기본 사항",
+            "themes": [
+              "그리드",
+              "활판술",
+              "색깔"
+            ]
+          },
+          {
+            "category": "모바일 디자인의 특징",
+            "themes": [
+              "화면",
+              "UX 모바일 전용"
+            ]
+          },
+          {
+            "category": "지침",
+            "themes": [
+              "휴먼 인터페이스",
+              "Google의 재료 설계"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "주제를 확장하는 중입니다 (진행 중)",
+        "content": []
+      }
+    ],
+    "content": [
+      {
+        "category": "그리드",
+        "description": "UI/UX와 마찬가지로 주요 설계 도구 사이에 그리드가 있습니다. 그것들은 요소들의 일관성을 달성하고, 요소들 사이의 연결을 설정하고, 시각적 시스템을 설정하고, 사용자들이 스스로 탐색하는 것을 돕습니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://infinum.com/blog/mobile-layouts-and-grids/",
+            "title": "모바일 디자인을 위한 그리드 및 레이아웃."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxdesign.cc/digging-deep-in-layout-grids-in-mobile-app-design-ef07ace5b291",
+            "title": "모바일 어플 디자인에서 그리드 레이아웃에 대한 자세한 연구입니다."
+          }
+        ]
+      },
+      {
+        "category": "활판술",
+        "description": "어떤 화면도 텍스트를 완전히 제거할 수 없습니다. 마찬가지로, 텍스트 요소가 인터페이스에 랜덤하게 표시되면 효율적인 인터페이스와 양의 UX를 얻을 수 없습니다.어떤 화면도 텍스트를 완전히 제거할 수 없습니다. 마찬가지로, 텍스트 요소가 인터페이스에 랜덤하게 표시되면 효율적인 인터페이스와 양의 UX를 얻을 수 없습니다.",
+        "links": [
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=jtjP049GOyk",
+            "title": "모바일 사용자 인터페이스를 개발하면서 효율적인 인쇄 배율을 만드십시오!"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f",
+            "title": "모바일 어플을 위한 최고의 활판술을 개발하기 위한 가이드입니다."
+          }
+        ]
+      },
+      {
+        "category": "색깔",
+        "description": "색 구성은 효율적인 UX와 모바일 앱의 기능을 고려해야 하는 두 번째 요소입니다. 따라서 모든 개발자는 변환을 강화하고 모바일 어플의 대중화에 도움이 될 수 있는 디자인과 색상을 선택하려고 합니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://dribbble.com/resources/choose-colors-mobile-app-design",
+            "title": "모바일 어플 디자인을 위한 색상 선택 방법(5가지 원칙)."
+          },
+           {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://parel.co/key-principles-to-choose-the-right-colour-scheme-for-your-mobile-app-design",
+            "title": "О올바른 색상을 선택하기 위한 기본 원칙입니다."
+          }
+        ]
+      },
+      {
+        "category": "화면",
+        "description": "인터페이스의 99% = 화면의 픽셀입니다. 1% 음성 인터페이스를 위해 설계되었으며 가까운 미래에 신경 연결을 위해 설계될 수 있습니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://pageflows.com/",
+            "title": "최고 브랜드의 온보딩 대본 수집입니다."
+          },
+          {
+            "id": 2,
+            "tag": "비디오",
+            "link": "https://www.youtube.com/watch?v=viNNYye4qG0",
+            "title": "모바일 어플을 위한 핵심 사용자 인터페이스 설계입니다."
+          }
+        ]
+      },
+      {
+        "category": "UX 모바일 전용",
+        "description": "앱은 주로 스마트폰 소지자가 맥박을 잡을 수 있도록 도와줍니다. 친구와의 의사소통, 공부, 운동 등 그리고 심지어 공간 이동 시에도 마찬가지입니다. 사용자는 휴대폰을 좋아하고 연중무휴 24/7로 도움을 주고자 하는 의지에 고마움을 느낍니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.smashingmagazine.com/2021/10/eye-tracking-mobile-ux-research/",
+            "title": "사용자 인터페이스 연구에서 모바일 장치의 눈 추적입니다."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.smashingmagazine.com/2016/10/in-app-gestures-and-mobile-app-user-experience/",
+            "title": "앱 및 모바일 UX에서 이동."
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://www.uxpin.com/studio/blog/top-tips-to-design-ux-text-for-mobile-apps/",
+            "title": "모바일 응용 어플에서 최상의 텍스트를 작성하기 위한 팁입니다."
+          }
+        ]
+      },
+      {
+        "category": "휴먼 인터페이스",
+        "description": "이 문서는 사용자와 상호 작용하는 가장 직관적이고 연구하기 쉽고 논리적인 인터페이스를 만드는 데 도움이 됩니다. 일반적으로 응용프로그램의 모양을 표준화할 뿐만 아니라 다양한 언어로 응용프로그램을 사용하고 장애인도 응용프로그램을 사용할 수 있도록 해야 합니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/",
+            "title": "Human Interface Guidelines – 그게 뭐죠?"
+          },
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://uxplanet.org/apples-human-interface-guidelines-overview-5d42c2088efc",
+            "title": "휴먼 인터페이스에 대한 Apple의 권장 사항을 한눈에 보기."
+          }
+        ]
+      },
+      {
+        "category": "Google의 재료 설계",
+        "description": "재료 설계는 모든 Google 제품을 통합하도록 설계된 Android 운영 체제 응용 프로그램 인터페이스입니다. 이 견해는 간단한 형태를 사용하고 화면의 개별 부분 간에 상호 작용하는 것입니다.",
+        "links": [
+          {
+            "id": 1,
+            "tag": "기사",
+            "link": "https://m3.material.io/",
+            "title": "재료 설계, 가장 광범위한 문서입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "resources": "공유하고 싶은 자료가 있다면 텔레그램이나 이메일로 문자를 보낼 수 있습니다.",
+    "telegram": "텔레그램",
+    "orVia": "",
+    "email": "이메일",
+    "translation": "번역 - ",
+    "design": "디자인 - ",
+    "designAndDevelopment": "설계 및 개발 - ",
+    "alex": "Alex",
+    "pavel": "Pavel",
+    "vilena": "Vilena"
+  },
+  "support": "프로젝트를 지원하기",
+  "supportModal": {
+    "title": "디자이너의 로드맵을 좋아한다고 우리 프로젝트 발전하고 더 나아지기를 원한다면, 당신은 이렇게 도와줄 수 있습니다!",
+    "ownerText": "프로젝트 작성자 (RUB)",
+    "translatorText": "번역자 (모든 통화)",
+    "cryptoText": "Сrypto wallet (USDT)",
+    "toCard": "Н카드로요",
+    "toPaypal": "페이팔로요",
+    "toCryptoWallet": "암호화 지갑으로요",
+    "thanks": "이 자금은 호스팅이 포함된 도메인에 대한 비용뿐만 아니라 프로젝트를 지속적으로 수행하는 사람들을 위한 비용 지불에 사용될 것입니다. 감사합니다!"
+  }
+}

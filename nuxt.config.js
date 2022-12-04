@@ -20,11 +20,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: ['@/assets/css/main.css'],
-  router: {
-    // middleware: 'i18n',
-  },
   plugins: [
-    '~/plugins/i18n.js',
     '~/plugins/v-click-outside.js',
     { src: '~/plugins/vue-bottom-sheet.js', ssr: false }
   ],
@@ -34,11 +30,10 @@ export default {
   modules: ['@nuxtjs/i18n', '@nuxtjs/google-analytics', '@nuxtjs/google-gtag'],
   i18n: {
     strategy: 'no_prefix',
-    locales: ['uk', 'ru', 'en', 'fr'],
+    locales: ['uk', 'ru', 'en', 'fr', 'ko'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_redirected',
       redirectOn: 'root',
     },
     vueI18n: {
@@ -48,12 +43,14 @@ export default {
         ru: require('./locales/ru.json'),
         en: require('./locales/en.json'),
         fr: require('./locales/fr.json'),
+        ko: require('./locales/ko.json')
       },
     },
   },
   googleAnalytics: {
-    asyncID: async () => { 
-      return 'UA-237134601-1' 
+    // eslint-disable-next-line require-await
+    asyncID: async () => {
+      return 'UA-237134601-1'
     },
     autoTracking: {
       screenview: true
